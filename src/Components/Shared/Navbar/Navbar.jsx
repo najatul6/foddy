@@ -45,7 +45,7 @@ const Navbar = () => {
 
         </ul>
       </nav>
-      <button className="py-4 px-6 bg-deep-orange text-white flex justify-center items-center gap-1">Order Now <FaArrowRight /></button>
+      <button className="py-4 px-6 uppercase bg-deep-orange text-white flex justify-center items-center gap-1">Order Now <FaArrowRight /></button>
     </header>
   );
 };
