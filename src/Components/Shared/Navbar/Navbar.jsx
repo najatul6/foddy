@@ -41,8 +41,10 @@ const Navbar = () => {
               </a>
             </li>
           ))}
+
         </ul>
       </nav>
+      <button>Order Now</button>
     </header>
   );
 };
