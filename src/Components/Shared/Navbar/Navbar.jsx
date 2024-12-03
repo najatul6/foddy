@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
 import { routes } from "../../../utils/menu";
 import { FaArrowRight } from "react-icons/fa";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,7 @@ const Navbar = () => {
 
         </ul>
       </nav>
-      <button className="py-4 px-6 uppercase bg-deep-orange text-white flex justify-center items-center gap-1">Order Now <FaArrowRight /></button>
+      <Button text="Order Now" icon={<FaArrowRight />} />
     </header>
   );
 };
