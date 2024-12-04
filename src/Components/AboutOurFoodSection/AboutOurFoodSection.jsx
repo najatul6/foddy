@@ -1,7 +1,10 @@
 
 const AboutOurFoodSection = () => {
   return (
-    <div>AboutOurFoodSection</div>
+    <div>
+        <LeftSection/>
+        <RightSection/>
+    </div>
   )
 }
 
