@@ -1,9 +1,11 @@
 import handcook from "../../assets/resources/handcook.png";
 import coffee from "../../assets/resources/coffee.png";
 import StickerCircle from "../Shared/StickerCircle/StickerCircle";
+import Button from "../Shared/Button/Button";
+import { FaArrowRight } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="flex justify-center items-center w-full h-[800px] border pt-20">
+    <div className="flex relative justify-center items-center w-full h-[800px] border pt-20">
       <div className="w-3/5 h-full overflow-hidden">
         <img
           src={handcook}
@@ -12,7 +14,7 @@ const Banner = () => {
         />
       </div>
       <div className="w-full h-full border bg-deep-black relative">
-        <h1 className="text-[50px] lg:text-[100px] font-bold">
+        <h1 className="text-[50px] lg:text-[70px] px-4 uppercase font-bold">
           ReserveD Your <br /> Table Today
         </h1>
         <div className="absolute bottom-16 left-10">
@@ -36,6 +38,10 @@ const Banner = () => {
             <StickerCircle circleText={"Best Restuarant Template by - Najatul islam ·"} />
           </div>
         </div>
+      </div>
+      <div className="w-[450px] h-[300px] flex justify-center flex-col items-start gap-4 px-4 top-[50%] absolute left-[20%] bg-deep-black">
+        <h3 className="text-4xl">celebration of flavors  from around the world crafted. </h3>
+        <Button text="View Our Menu" icon={<FaArrowRight />} />
       </div>
     </div>
   );
