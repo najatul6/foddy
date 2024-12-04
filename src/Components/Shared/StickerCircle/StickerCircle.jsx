@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./StickerCircle.css"; // Import your CSS file here
 
 const StickerCircle = ({ circleText }) => {
@@ -36,5 +37,7 @@ const StickerCircle = ({ circleText }) => {
   );
 };
 
-
+StickerCircle.propTypes = {
+  circleText: PropTypes.string.isRequired,
+};
 export default StickerCircle;
