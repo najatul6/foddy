@@ -30,7 +30,7 @@ const Banner = () => {
             />
           </svg>
         </div>
-            <StickerCircle />
+            <StickerCircle circleText={"Best Restuarant Template by - Najatul islam ·"} />
         <div className="absolute bottom-0 right-0">
           <img src={coffee} alt="Coffee Cup" className="" />
           <div>

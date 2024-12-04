@@ -10,13 +10,14 @@
 
 .circle-text {
   position: absolute;
-  width: 256px;
-  height: 256px;
-  left: 50%;
-  top: 3%;
-  transform-origin: 0 120px; /* Align text on the circle border */
-  font-size: 0.875rem; /* Tailwind equivalent: text-sm */
+  width: 200px;
+  height: 200px;
+  left: 129px;
+  top: 30px;
+  transform-origin: 0 100px; /* Align text on the circle border */
+  font-size: 16px; /* Tailwind equivalent: text-sm */
   font-weight: 700;
+  /* border: 1px solid rgb(17, 255, 0); Matches the circle border color */
   text-transform: uppercase;
   color: orange; /* Matches the circle border color */
 }
