@@ -3,7 +3,7 @@ import coffee from "../../assets/resources/coffee.png";
 import StickerCircle from "../Shared/StickerCircle/StickerCircle";
 const Banner = () => {
   return (
-    <div className="flex justify-center items-center w-full h-[800px] border">
+    <div className="flex justify-center items-center w-full h-[800px] border pt-20">
       <div className="w-3/5 h-full overflow-hidden">
         <img
           src={handcook}
@@ -30,10 +30,10 @@ const Banner = () => {
             />
           </svg>
         </div>
-            <StickerCircle circleText={"Best Restuarant Template by - Najatul islam ·"} />
         <div className="absolute bottom-0 right-0">
           <img src={coffee} alt="Coffee Cup" className="" />
-          <div>
+          <div className="absolute -top-[10rem] -left-[8rem]" >
+            <StickerCircle circleText={"Best Restuarant Template by - Najatul islam ·"} />
           </div>
         </div>
       </div>
