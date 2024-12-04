@@ -5,11 +5,11 @@ const StickerCircle = ({ circleText }) => {
   return (
     <div className="relative flex items-center justify-center w-[256px] h-[256px] rounded-full bg-orange-600">
       {/* Circular Text */}
-      <div className="circle-text-container">
+      <div className="circle-text-container animate-spin-slow">
         {Array.from(circleText).map((char, index) => (
           <span
             key={index}
-            className="circle-text"
+            className="circle-text "
             style={{ transform: `rotate(${index * (360 / circleText.length)}deg)` }} // Dynamically adjust spacing
           >
             {char}
