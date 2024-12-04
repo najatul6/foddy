@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="fixed top-0 left-0 w-full py-[1.3rem] px-[2%] lg:py-1 lg:px-[2%]  flex justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:bg-gradient-back before:backdrop-blur-[50px] before:z-[-1] shadow-xl shadow-gradient-back text-white font-bold">
+    <header className="fixed top-0 left-0 w-full py-[1.3rem] px-[2%] lg:py-1 lg:px-[2%] flex gap-1 lg:justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:bg-gradient-back before:backdrop-blur-[50px] before:z-[-1] shadow-xl shadow-gradient-back text-white font-bold">
       <div className="text-3xl font-bold lg:leading-[70px] cursor-pointer">
         <a href="/" className="block">
         F<span className="text-deep-orange">odd</span>y
@@ -46,7 +46,9 @@ const Navbar = () => {
 
         </ul>
       </nav>
+      <div className="md:w-full md:mx-auto md:flex md:justify-center md:items-center lg:justify-between lg:w-auto lg:mx-0">
       <Button text="Order Now" icon={<FaArrowRight />} />
+      </div>
     </header>
   );
 };
