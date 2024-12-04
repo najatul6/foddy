@@ -1,6 +1,6 @@
-import "./Circel.css"; // Import your CSS file here
+import "./StickerCircle.css"; // Import your CSS file here
 
-const Circel = () => {
+const StickerCircle = () => {
   return (
     <div className="relative flex items-center justify-center w-64 h-64 rounded-full border-2 border-gray-300">
       {/* Circular Text */}
@@ -15,4 +15,4 @@ const Circel = () => {
   );
 };
 
-export default Circel;
+export default StickerCircle;
