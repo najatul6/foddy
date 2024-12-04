@@ -1,5 +1,6 @@
 import handcook from "../../assets/resources/handcook.png";
 import coffee from "../../assets/resources/coffee.png";
+import StickerCircle from "../Shared/StickerCircle/StickerCircle";
 const Banner = () => {
   return (
     <div className="flex justify-center items-center w-full h-[800px] border">
@@ -29,10 +30,10 @@ const Banner = () => {
             />
           </svg>
         </div>
+            <StickerCircle />
         <div className="absolute bottom-0 right-0">
           <img src={coffee} alt="Coffee Cup" className="" />
           <div>
-            <Circle />
           </div>
         </div>
       </div>

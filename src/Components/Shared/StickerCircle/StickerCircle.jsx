@@ -1,18 +1,40 @@
 import "./StickerCircle.css"; // Import your CSS file here
 
-const StickerCircle = () => {
+const StickerCircle = ({ circleText }) => {
   return (
-    <div className="relative flex items-center justify-center w-64 h-64 rounded-full border-2 border-gray-300">
+    <div className="relative flex items-center justify-center w-64 h-64 rounded-full bg-orange-600">
       {/* Circular Text */}
-      <div className="absolute w-full h-full animate-spin-slow">
-        <p className="text-circle text-gray-700">
-          Circular Text Example · Circular Text Example ·
-        </p>
+      <div className="circle-text-container">
+        {Array.from(circleText).map((char, index) => (
+          <span
+            key={index}
+            className="circle-text"
+            style={{ transform: `rotate(${index * (360 / circleText.length)}deg)` }} // Dynamically adjust spacing
+          >
+            {char}
+          </span>
+        ))}
       </div>
-      {/* Middle Letter */}
-      <span className="absolute text-4xl font-bold text-gray-800">N</span>
+      {/* Center Play Icon */}
+      <span className="absolute text-white text-6xl">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth="2"
+          className="w-12 h-12"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M14.752 11.168l-3.197-1.852A1 1 0 0010 10.15v3.7a1 1 0 001.555.832l3.197-1.852a1 1 0 000-1.664z"
+          />
+        </svg>
+      </span>
     </div>
   );
 };
+
 
 export default StickerCircle;
