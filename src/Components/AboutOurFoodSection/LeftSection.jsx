@@ -3,7 +3,7 @@ import Rectangle655 from "../../assets/resources/Rectangle 655.png";
 import Rectangle656 from "../../assets/resources/Rectangle 656.png";
 const LeftSection = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full grid grid-cols-2 gap-6">
       <div>
         <img src={Rectangle654} alt="" />
       </div>
@@ -11,7 +11,7 @@ const LeftSection = () => {
         <img src={Rectangle655} alt="" />
       </div>
       <div>
-        <h1>OPENING HRS</h1>
+        <h1 className="text-3xl font-normal">OPENING HRS</h1>
         <p>Mon - Satday | 8.00 am to 11.00 pm</p>
         <p>Sunday | 10.00 am to 11.45 pm</p>
       </div>

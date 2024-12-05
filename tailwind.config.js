@@ -11,6 +11,9 @@ export default {
         'deep-orange': "#DF3F01",
         'light-black': "#111111",
       },
+      fontFamily: {
+        'cormorantGaramond': ["Cormorant Garamond", 'serif'],
+      },
     },
   },
   plugins: [],
