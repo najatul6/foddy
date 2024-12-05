@@ -1,7 +1,10 @@
+import SectionTitle from "../Shared/SectionTitle/SectionTitle"
 
 const RightSection = () => {
   return (
-    <div className="w-full h-full">RightSection</div>
+    <div className="">
+      <SectionTitle heading="A" />
+    </div>
   )
 }
 
