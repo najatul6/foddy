@@ -11,23 +11,24 @@ const FindRestaurant = () => {
           subHeading="find restaurant"
           heading="Find Your Best Restaurant in Your area"
         />
-        <div>
-          <p>Merin City Tower, Albert St, New York, USA</p>
+        <hr className="w-1/3 border-2 rounded-full my-7"/>
+        <div className="text-2xl font-medium space-y-5 font-cormorantGaramond">
+          <p>Merin City Tower, Albert St,<br /> New York, USA</p>
           <p>mdnajatulislam.develop@gmail.com</p>
           <p>+880 177 382 7414</p>
-          <div>
+          <div className="">
             <Button text="contact us" icon={<FaArrowRight/>} />
-            <span>or</span>
-            <div>
+            <span className="text-2xl font-medium">or</span>
+            <div className="hover:text-deep-orange text-2xl font-bold">
                 <FaFacebook/>
             </div>
-            <div>
+            <div className="hover:text-deep-orange text-2xl font-bold">
                 <FaInstagram/>
             </div>
-            <div>
+            <div className="hover:text-deep-orange text-2xl font-bold">
                 <FaTwitter/>
             </div>
-            <div>
+            <div className="hover:text-deep-orange text-2xl font-bold">
                 <FaLinkedin/>
             </div>
           </div>
