@@ -5,7 +5,7 @@ import RightSection from "./RightSection";
 const AboutOurFoodSection = () => {
   return (
     <Container>
-      <div className="grid grid-cols-2 mt-[120px]">
+      <div className="grid grid-cols-2 mt-[120px] gap-5">
         <LeftSection />
         <RightSection />
       </div>
