@@ -3,7 +3,7 @@ import RightSection from "./RightSection"
 
 const AboutOurFoodSection = () => {
   return (
-    <div className="flex justify-center items-center w-full">
+    <div className="grid grid-cols-2">
         <LeftSection/>
         <RightSection/>
     </div>

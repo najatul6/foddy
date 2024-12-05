@@ -3,7 +3,7 @@ import "./StickerCircle.css"; // Import your CSS file here
 
 const StickerCircle = ({ circleText }) => {
   return (
-    <div className="relative flex items-center justify-center w-[256px] h-[256px] rounded-full bg-orange-600">
+    <div className="relative flex font-cormorantGaramond items-center justify-center w-[256px] h-[256px] rounded-full bg-orange-600">
       {/* Circular Text */}
       <div className="circle-text-container animate-spin-slow">
         {Array.from(circleText).map((char, index) => (
