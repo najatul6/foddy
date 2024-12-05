@@ -1,5 +1,4 @@
-import AboutOurFoodSection from "../../Components/AboutOurFoodSection/AboutOurFoodSection"
-import Banner from "../../Components/Banner/Banner"
+import Banner from "../../Components/HomePage/Banner/Banner"
 
 const Home = () => {
   return (

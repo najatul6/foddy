@@ -1,6 +1,7 @@
-import Container from "../Shared/Container/Container";
+import Container from "../../Shared/Container/Container";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
+
 
 const AboutOurFoodSection = () => {
   return (

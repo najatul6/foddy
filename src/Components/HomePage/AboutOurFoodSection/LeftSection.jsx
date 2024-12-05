@@ -1,6 +1,6 @@
-import Rectangle654 from "../../assets/resources/Rectangle 654.png";
-import Rectangle655 from "../../assets/resources/Rectangle 655.png";
-import Rectangle656 from "../../assets/resources/Rectangle 656.png";
+import Rectangle654 from "../../../assets/resources/Rectangle 654.png";
+import Rectangle655 from "../../../assets/resources/Rectangle 655.png";
+import Rectangle656 from "../../../assets/resources/Rectangle 656.png";
 const LeftSection = () => {
   return (
     <div className="w-full h-full flex justify-center items-center gap-6">

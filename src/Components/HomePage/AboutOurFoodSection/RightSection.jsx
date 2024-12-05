@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
-import Button from "../Shared/Button/Button";
-import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 import { FiPhoneIncoming } from "react-icons/fi";
+import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
+import Button from "../../Shared/Button/Button";
 
 const RightSection = () => {
   return (
