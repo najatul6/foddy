@@ -10,8 +10,8 @@ const LeftSection = () => {
         </div>
 
         <div className="font-cormorantGaramond flex flex-col  w-full h-full py-5 justify-center items-end">
-          <h1 className="text-3xl font-normal">OPENING HRS</h1>
-          <p className="font-light">Mon - Satday | 8.00 am to 11.00 pm</p>
+          <h1 className="text-3xl font-bold">OPENING HRS</h1>
+          <p className="font-light">Monday - Saturday | 8.00 am to 11.00 pm</p>
           <p className="font-light">Sunday | 10.00 am to 11.45 pm</p>
         </div>
       </div>
