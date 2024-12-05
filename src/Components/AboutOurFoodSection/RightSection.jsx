@@ -1,7 +1,7 @@
 
 const RightSection = () => {
   return (
-    <div>RightSection</div>
+    <div className="w-full h-full">RightSection</div>
   )
 }
 

@@ -3,7 +3,7 @@ import Rectangle655 from '../../assets/resources/Rectangle 655.png'
 import Rectangle656 from '../../assets/resources/Rectangle 656.png'
 const LeftSection = () => {
   return (
-    <div>
+    <div className='w-full h-full'>
       <img src={Rectangle654} alt="" />
       <img src={Rectangle655} alt="" />
       <img src={Rectangle654} alt="" />
