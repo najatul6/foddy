@@ -14,7 +14,7 @@ const RightSection = () => {
           appetizers to decadent desserts, each dish is a masterpiece
         </p>
         <div className="flex justify-center items-center gap-5 group">
-          <div className="p-5 border border-white rounded-full group-hover:bg-deep-orange duration-300">
+          <div className="p-5 border border-white rounded-full group-hover:bg-deep-orange group-hover:border-none duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
@@ -62,7 +62,7 @@ const RightSection = () => {
           </div>
         </div>
         <div className="flex justify-center items-center gap-5 group">
-          <div className="p-5 border border-white rounded-full group-hover:bg-deep-orange duration-300">
+          <div className="p-5 border border-white rounded-full group-hover:bg-deep-orange group-hover:border-none duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
@@ -86,7 +86,7 @@ const RightSection = () => {
           </div>
           <div className="text-white">
             <h4 className="text-3xl font-cormorantGaramond font-bold capitalize">
-              Traditional Foods
+              Passionate Chefs
             </h4>
             <p className="opacity-[0.6] mt-[10px]">
               our talented team of chefs. From savory appetizers to decadent
