@@ -6,7 +6,7 @@ import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 const FindRestaurant = () => {
   return (
     <Container>
-      <div>
+      <div className="mt-[120px]">
         <SectionHeader
           subHeading="find restaurant"
           heading="Find Your Best Restaurant in Your area"
@@ -16,7 +16,7 @@ const FindRestaurant = () => {
           <p>Merin City Tower, Albert St,<br /> New York, USA</p>
           <p>mdnajatulislam.develop@gmail.com</p>
           <p>+880 177 382 7414</p>
-          <div className="">
+          <div className="flex justify-start items-center gap-7">
             <Button text="contact us" icon={<FaArrowRight/>} />
             <span className="text-2xl font-medium">or</span>
             <div className="hover:text-deep-orange text-2xl font-bold">
