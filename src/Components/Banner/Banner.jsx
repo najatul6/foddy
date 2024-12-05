@@ -5,7 +5,7 @@ import Button from "../Shared/Button/Button";
 import { FaArrowRight } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="flex relative justify-center items-center w-full h-[800px] border pt-20">
+    <div className="flex relative justify-center items-center w-full h-[800px] pt-20">
       <div className="w-3/5 h-full overflow-hidden">
         <img
           src={handcook}
@@ -13,7 +13,7 @@ const Banner = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="w-full h-full border bg-deep-black relative">
+      <div className="w-full h-full  bg-deep-black relative">
         <h1 className="text-[50px] lg:text-[70px] px-4 uppercase font-bold">
           ReserveD Your <br /> Table Today
         </h1>
