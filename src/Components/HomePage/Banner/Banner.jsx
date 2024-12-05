@@ -1,8 +1,8 @@
-import handcook from "../../assets/resources/handcook.png";
-import coffee from "../../assets/resources/coffee.png";
-import StickerCircle from "../Shared/StickerCircle/StickerCircle";
-import Button from "../Shared/Button/Button";
+import handcook from "../../../assets/resources/handcook.png";
+import coffee from "../../../assets/resources/coffee.png";
 import { FaArrowRight } from "react-icons/fa";
+import StickerCircle from "../../Shared/StickerCircle/StickerCircle";
+import Button from "../../Shared/Button/Button";
 const Banner = () => {
   return (
     <div className="flex relative justify-center items-center w-full h-[800px] pt-20">

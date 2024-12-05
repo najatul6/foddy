@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="text-white">
         <Banner/>
-        <AboutOurFoodSection/>
+        <AboutOurFoodSection />
     </div>
   )
 }
