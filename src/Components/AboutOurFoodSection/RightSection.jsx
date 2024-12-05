@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import Button from "../Shared/Button/Button";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
+import { FiPhoneIncoming } from "react-icons/fi";
 
 const RightSection = () => {
   return (
@@ -97,8 +98,17 @@ const RightSection = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Button text="About More" icon={<FaArrowRight/>} />
+      <div className="grid grid-cols-2 gap-5 mt-12">
+        <Button text="About More" icon={<FaArrowRight />} />
+        <div className="flex justify-center items-center gap-3">
+          <div className="rounded-full p-3 bg-deep-orange bg-opacity-[10%]">
+            <FiPhoneIncoming className="text-deep-orange" />
+          </div>
+          <div>
+            <p className="text-xs opacity-[0.6]">Call For Order</p>
+            <p className="font-medium">+880 177 382 7414</p>
+          </div>
+        </div>
       </div>
     </div>
   );
