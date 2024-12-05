@@ -13,8 +13,8 @@ const Banner = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="w-full h-full  bg-deep-black relative">
-        <h1 className="text-[50px] lg:text-[70px] px-4 uppercase font-bold">
+      <div className="w-full h-full bg-deep-black relative">
+        <h1 className="text-[50px] lg:text-[70px] px-4 uppercase font-bold font-cormorantGaramond">
           ReserveD Your <br /> Table Today
         </h1>
         <div className="absolute bottom-16 left-10">
@@ -40,7 +40,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="w-[450px] h-[250px] flex justify-center flex-col items-start gap-4 px-4 top-[50%] absolute left-[20%] bg-deep-black">
-        <h3 className="text-4xl">celebration of flavors  from around the world crafted. </h3>
+        <h3 className="text-4xl font-cormorantGaramond">celebration of flavors  from around the world crafted. </h3>
         <Button text="View Our Menu" icon={<FaArrowRight />} />
       </div>
     </div>
