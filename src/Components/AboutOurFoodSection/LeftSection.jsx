@@ -1,7 +1,9 @@
 
 const LeftSection = () => {
   return (
-    <div>LeftSection</div>
+    <div>
+      <img src="" alt="" />
+    </div>
   )
 }
 
