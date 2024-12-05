@@ -1,4 +1,4 @@
-import { FaArrowRight, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaArrowRight, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Button from "../../Shared/Button/Button";
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
@@ -28,7 +28,7 @@ const FindRestaurant = () => {
                 <FaTwitter/>
             </div>
             <div>
-                <FaFacebook/>
+                <FaLinkedin/>
             </div>
           </div>
         </div>
