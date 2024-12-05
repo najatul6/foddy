@@ -3,7 +3,7 @@ import SectionTitle from "../Shared/SectionTitle/SectionTitle"
 const RightSection = () => {
   return (
     <div className="">
-      <SectionTitle heading="A" />
+      <SectionTitle heading="About our food" />
     </div>
   )
 }
