@@ -3,7 +3,7 @@ import RightSection from "./RightSection"
 
 const AboutOurFoodSection = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center w-full">
         <LeftSection/>
         <RightSection/>
     </div>
