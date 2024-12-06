@@ -26,7 +26,9 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-4 gap-4 mt-10">
             <div className="space-y-5">
-              <h5 className="text-5xl font-medium ">F<span className="text-deep-orange">odd</span>y</h5>
+              <h5 className="text-5xl font-medium ">
+                F<span className="text-deep-orange">odd</span>y
+              </h5>
               <p className="text-lg  tracking-[0.5px]">
                 Our menu is a celebration of flavors from around the world,
                 crafted with care and creativity by our talented.
@@ -80,6 +82,20 @@ const Footer = () => {
                 <p className="break-all">mdnajatulislam.develop@gmail.com</p>
               </div>
             </div>
+          </div>
+          <hr className="border-[0.3px] border-white my-5" />
+          <div className="text-2xl font-medium font-cormorantGaramond flex justify-between items-center px-2 pb-4">
+            <p>Copyright &copy;foody 2024 | All Right Reserved</p>
+            <p>
+              Developed By -{" "}
+              <Link
+                to="https://www.najatulislam.me/"
+                target="_blank"
+                className="text-deep-orange underline"
+              >
+                Najatul Islam
+              </Link>
+            </p>
           </div>
         </div>
       </Container>
