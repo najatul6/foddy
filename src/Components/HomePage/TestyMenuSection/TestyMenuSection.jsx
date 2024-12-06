@@ -6,7 +6,8 @@ import FoodCard from "../../Shared/FoodCard/FoodCard";
 import { recipes } from "../../../utils/recipes";
 
 const TestyMenuSection = () => {
-    const yummyMenu = recipes?.slice(0,3);
+    const yummyMenu = recipes?.slice(0,4);
+    console.log(yummyMenu);
   return (
     <Container>
       <div className="mt-[120px]">
@@ -29,7 +30,6 @@ const TestyMenuSection = () => {
                         <FoodCard key={index} name={recipe?.name} image={recipe?.image} price={recipe?.price} recipe={recipe?.recipe} />
                     ))
                 }
-                <FoodCard />
             </div>
 
             {/* right side image */}
