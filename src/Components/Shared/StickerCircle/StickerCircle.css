@@ -19,7 +19,7 @@
   font-weight: 700;
   /* border: 1px solid rgb(17, 255, 0); Matches the circle border color */
   text-transform: uppercase;
-  color: orange; /* Matches the circle border color */
+  color: #FFFFFF; /* Matches the circle border color */
 }
 
 @keyframes spin-slow {
