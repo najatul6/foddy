@@ -5,7 +5,7 @@ const OurBestChefSection = () => {
   return (
     <div className="mt-[120px]">
         <Container>
-            <div>
+            <div className="w-1/3 mx-auto text-center">
                 <SectionHeader heading={"Meet Our Exclusive Kitchen Teams"} subHeading={"OUR best chef’s"}/>
             </div>
         </Container>
