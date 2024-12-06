@@ -1,41 +1,19 @@
+import PropTypes from "prop-types";
 
-
-const ChefCard = () => {
+const ChefCard = ({ chef }) => {
   return (
-    <Swiper
-      slidesPerView={1}
-      spaceBetween={10}
-      pagination={{
-        clickable: true,
-      }}
-      breakpoints={{
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 2,
-          spaceBetween: 50,
-        },
-      }}
-      modules={[Pagination]}
-      className="mySwiper"
-    >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      <SwiperSlide>Slide 5</SwiperSlide>
-      <SwiperSlide>Slide 6</SwiperSlide>
-      <SwiperSlide>Slide 7</SwiperSlide>
-      <SwiperSlide>Slide 8</SwiperSlide>
-      <SwiperSlide>Slide 9</SwiperSlide>
-    </Swiper>
+    <div className="rounded-lg overflow-hidden relative">
+      <img src={chef.profile} alt="" className="w-full h-full border mx-auto" />
+      <div className="absolute bottom-0 w-full text-center bg-deep-black rounded-b-lg border border-t-0  bg-opacity-85">
+        <h1 className="text-xl font-bold mt-5 ">{chef.name}</h1>
+        <p className="text-gray-400">{chef.designation}</p>
+      </div>
+    </div>
   );
+};
+
+ChefCard.propTypes = {
+  chef: PropTypes.object,
 };
 
 export default ChefCard;
