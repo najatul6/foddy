@@ -2,11 +2,12 @@ import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import leftSideImg from "../../../assets/resources/Rectangle 692.png"
 import rightSideImg from "../../../assets/resources/Rectangle 693.png"
+import FoodCard from "../../Shared/FoodCard/FoodCard";
 
 const TestyMenuSection = () => {
   return (
     <Container>
-      <div>
+      <div className="mt-[120px]">
         {/* Section Header */}
         <div className="w-1/3 mx-auto text-center">
           <SectionHeader
@@ -22,7 +23,9 @@ const TestyMenuSection = () => {
             </div>
 
             {/* Menu Items */}
-            <div></div>
+            <div>
+                <FoodCard />
+            </div>
 
             {/* right side image */}
             <div>
