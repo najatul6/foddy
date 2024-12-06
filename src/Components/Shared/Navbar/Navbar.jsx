@@ -3,6 +3,7 @@ import { IoClose, IoMenu } from "react-icons/io5";
 import { routes } from "../../../utils/menu";
 import { FaArrowRight } from "react-icons/fa";
 import Button from "../Button/Button";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,12 +36,17 @@ const Navbar = () => {
                   : "translate-y-[-50px] lg:translate-y-0 transition-all duration-700"
               }`}
             >
-              <a
-                href={route?.path}
-                className="md:leading-[70px] w-full text-lg py-2 px-4 hover:shadow-[#33ffff_0px_0px_5px] hover:text-cyan-500 rounded-md"
+              <NavLink
+                to={route?.path}
+                className={({ isActive }) =>
+                  `md:leading-[70px] w-full text-lg py-2 px-4 rounded-md duration-300 ${
+                    isActive
+                      ? "text-deep-orange  border-deep-orange border-t-2"
+                      : " hover:text-deep-orange hover:border-b-2 hover:border-t-2 hover:border-deep-orange "
+                  }`}
               >
                 {route?.name}
-              </a>
+              </NavLink>
             </li>
           ))}
 
