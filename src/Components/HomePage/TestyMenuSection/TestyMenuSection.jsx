@@ -1,5 +1,7 @@
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
+import leftSideImg from "../../../assets/resources/Rectangle 692.png"
+import rightSideImg from "../../../assets/resources/Rectangle 693.png"
 
 const TestyMenuSection = () => {
   return (
