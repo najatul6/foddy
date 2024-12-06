@@ -24,7 +24,7 @@ const TestyMenuSection = () => {
                 <img src={leftSideImg} alt="Food Related Image" />
 
             {/* Menu Items */}
-            <div className="w-full">
+            <div className="w-full flex">
                 {
                     yummyMenu?.map((recipe, index) => (
                         <FoodCard key={index} name={recipe?.name} image={recipe?.image} price={recipe?.price} recipe={recipe?.recipe} />
