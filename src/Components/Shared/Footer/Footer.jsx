@@ -24,24 +24,24 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-4 border">
+          <div className="grid grid-cols-4 gap-4 mt-10">
             <div className="space-y-5">
-              <h5 className="text-5xl font-medium ">Foody</h5>
+              <h5 className="text-5xl font-medium ">F<span className="text-deep-orange">odd</span>y</h5>
               <p className="text-lg  tracking-[0.5px]">
                 Our menu is a celebration of flavors from around the world,
                 crafted with care and creativity by our talented.
               </p>
-              <div className="flex justify-start items-center gap-[30px]">
+              <div className="flex justify-start items-center gap-[30px] cursor-pointer duration-300">
                 <div className="hover:text-deep-orange text-2xl font-bold">
                   <FaFacebook />
                 </div>
-                <div className="hover:text-deep-orange text-2xl font-bold">
+                <div className="hover:text-deep-orange text-2xl font-bold cursor-pointer duration-300">
                   <FaInstagram />
                 </div>
-                <div className="hover:text-deep-orange text-2xl font-bold">
+                <div className="hover:text-deep-orange text-2xl font-bold cursor-pointer duration-300">
                   <FaTwitter />
                 </div>
-                <div className="hover:text-deep-orange text-2xl font-bold">
+                <div className="hover:text-deep-orange text-2xl font-bold cursor-pointer duration-300">
                   <FaLinkedin />
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Footer = () => {
               <h6 className="text-3xl font-bold font-cormorantGaramond">
                 Quick Links
               </h6>
-              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond">
+              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond opacity-[0.8]">
                 <Link>Home</Link>
                 <Link>Our Menu</Link>
                 <Link>Reservation</Link>
@@ -62,7 +62,7 @@ const Footer = () => {
               <h6 className="text-3xl font-bold font-cormorantGaramond">
                 Food Menu
               </h6>
-              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond ">
+              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond  opacity-[0.8]">
                 <Link>Fast-food</Link>
                 <Link>Italian Food</Link>
                 <Link>Thai Food</Link>
@@ -70,11 +70,11 @@ const Footer = () => {
                 <Link>Chef&rsquo;s Details</Link>
               </div>
             </div>
-            <div className="space-y-6 border">
+            <div className="space-y-6 ">
               <h6 className="text-3xl font-bold font-cormorantGaramond">
                 Contact Us
               </h6>
-              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond border w-full break-words">
+              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond  w-full break-words opacity-[0.8]">
                 <p>Merin City Tower, Albert St, New York, USA</p>
                 <p>+880 177 382 7414</p>
                 <p className="break-all">mdnajatulislam.develop@gmail.com</p>
