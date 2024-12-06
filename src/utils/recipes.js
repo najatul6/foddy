@@ -29,7 +29,7 @@ export const recipes=[
         {
         "id": 14,
         "name": "Chapli Kebabs",
-        "image": "https://cdn.dummyjson.com/recipe-images/14.webp",
+        "image": "https://media.istockphoto.com/id/501137055/photo/chapli-kabab-11.jpg?s=612x612&w=0&k=20&c=L76f8tzZruBtGHxP-7VzitCOLi3583BPRo-zF6Tq9Q0=",
         "price":"$10",
         "recipe":"Roasted Chicken, Rice, Spices and Herbs cooked together in a pot to perfection.",
         "type":"Chinese/Vegetable/Italian/ Bengali/Fast Food",

@@ -3,8 +3,10 @@ import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import leftSideImg from "../../../assets/resources/Rectangle 692.png"
 import rightSideImg from "../../../assets/resources/Rectangle 693.png"
 import FoodCard from "../../Shared/FoodCard/FoodCard";
+import { recipes } from "../../../utils/recipes";
 
 const TestyMenuSection = () => {
+    const yummyMenu = recipes?.slice(0,3);
   return (
     <Container>
       <div className="mt-[120px]">
@@ -16,21 +18,22 @@ const TestyMenuSection = () => {
           />
         </div>
         {/* Menu Content */}
-        <div className="flex justify-between gap-10">
+        <div className="flex justify-center items-center w-full gap-10">
             {/* left side image  */}
-            <div>
                 <img src={leftSideImg} alt="Food Related Image" />
-            </div>
 
             {/* Menu Items */}
-            <div>
+            <div className="w-full">
+                {
+                    yummyMenu?.map((recipe, index) => (
+                        <FoodCard key={index} name={recipe?.name} image={recipe?.image} price={recipe?.price} recipe={recipe?.recipe} />
+                    ))
+                }
                 <FoodCard />
             </div>
 
             {/* right side image */}
-            <div>
                 <img src={rightSideImg} alt="Food Related Image" />
-            </div>
         </div>
       </div>
     </Container>
