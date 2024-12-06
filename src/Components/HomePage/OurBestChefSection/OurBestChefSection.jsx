@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import { chefs } from "../../../utils/chefs";
 import ChefCard from "./ChefCard";
 
@@ -28,6 +28,9 @@ const OurBestChefSection = () => {
                     pagination={{
                         clickable: true,
                     }}
+                    autoplay={{
+                        delay: 1500,
+                    }}
                     breakpoints={{
                         640: {
                             slidesPerView: 2,
@@ -42,7 +45,7 @@ const OurBestChefSection = () => {
                             spaceBetween: 50,
                         },
                     }}
-                    modules={[Pagination]}
+                    modules={[Pagination,Autoplay]}
                     className="mySwiper"
                 >
                     {chefs?.map((chef,id)=>{
