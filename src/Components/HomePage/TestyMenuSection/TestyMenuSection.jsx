@@ -4,6 +4,8 @@ import leftSideImg from "../../../assets/resources/Rectangle 692.png"
 import rightSideImg from "../../../assets/resources/Rectangle 693.png"
 import FoodCard from "../../Shared/FoodCard/FoodCard";
 import { recipes } from "../../../utils/recipes";
+import Button from "../../Shared/Button/Button";
+import { FaArrowRight } from "react-icons/fa";
 
 const TestyMenuSection = () => {
     const yummyMenu = recipes?.slice(0,4);
@@ -19,7 +21,7 @@ const TestyMenuSection = () => {
           />
         </div>
         {/* Menu Content */}
-        <div className="flex justify-center items-center w-full gap-10">
+        <div className="flex justify-center items-center w-full gap-10 mb-10">
             {/* left side image  */}
                 <img src={leftSideImg} alt="Food Related Image" />
 
@@ -34,6 +36,9 @@ const TestyMenuSection = () => {
 
             {/* right side image */}
                 <img src={rightSideImg} alt="Food Related Image" />
+        </div>
+        <div className="flex justify-center items-center">
+        <Button text="About More" icon={<FaArrowRight/>} />
         </div>
       </div>
     </Container>
