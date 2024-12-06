@@ -15,7 +15,7 @@ const TestyMenuSection = () => {
           />
         </div>
         {/* Menu Content */}
-        <div>
+        <div className="flex justify-between gap-10">
             {/* left side image  */}
             <div>
                 <img src={leftSideImg} alt="Food Related Image" />
