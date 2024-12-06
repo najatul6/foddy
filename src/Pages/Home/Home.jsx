@@ -4,6 +4,7 @@ import FindRestaurant from "../../Components/HomePage/FindRestaurant/FindRestaur
 import Award from "../../Components/HomePage/Award/Award"
 import PopularServiceSection from "../../Components/HomePage/PopularServiceSection/PopularServiceSection"
 import TestyMenuSection from "../../Components/HomePage/TestyMenuSection/TestyMenuSection"
+import OurBestChefSection from "../../Components/HomePage/OurBestChefSection/OurBestChefSection"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Award/>
         <PopularServiceSection/>
         <TestyMenuSection/>
+        <OurBestChefSection/>
     </div>
   )
 }
