@@ -8,15 +8,15 @@ const Footer = () => {
           <h1 className="text-5xl font-cormorantGaramond font-bold text-white">
             Subscribe For Daily Update
           </h1>
-          <div>
+          <div className="flex justify-center items-center">
             <input
               type="email"
               name="email"
               id=""
               placeholder="Enter email address"
-              className="bg-[#3C3C3C] bg-opacity-[0.51] px-5 py-2 placeholder:opacity-[0.5]"
+              className="bg-[#3C3C3C] bg-opacity-[0.51] px-5 py-2 placeholder:opacity-[0.5] text-2xl text-white focus:outline-none"
             />
-            <button className="bg-deep-orange px-5 py-2 font-cormorantGaramond font-medium text-white">
+            <button className="bg-deep-orange px-5 py-2 font-cormorantGaramond font-medium text-white text-2xl">
               Subscribe Now
             </button>
           </div>
