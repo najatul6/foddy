@@ -24,22 +24,37 @@ const PopularServiceSection = () => {
           </p>
         </div>
         <div>
-          <div className="bg-deep-black p-[30px] border border-deep-orange">
+          <div className="bg-deep-black p-[30px] border border-deep-orange space-y-5">
             <img src={icon1} alt="Services icons here" />
-            <div>
+            <div className="flex flex-col gap-2">
               <h6 className="text-3xl font-cormorantGaramond font-bold capitalize">Special Foods</h6>
               <p className="opacity-[0.7]">celebration of flavors from around the world, crafted </p>
             </div>
             <button className="flex justify-center items-center gap-2 text-xl font-cormorantGaramond">Learn More <FaArrowRight/></button>
           </div>
-          <div>
+          <div className="bg-deep-black p-[30px] border border-deep-orange space-y-5">
             <img src={icon2} alt="Services icons here" />
+             <div className="flex flex-col gap-2">
+              <h6 className="text-3xl font-cormorantGaramond font-bold capitalize">Special Foods</h6>
+              <p className="opacity-[0.7]">celebration of flavors from around the world, crafted </p>
+            </div>
+            <button className="flex justify-center items-center gap-2 text-xl font-cormorantGaramond">Learn More <FaArrowRight/></button>
           </div>
-          <div>
+          <div className="bg-deep-black p-[30px] border border-deep-orange space-y-5">
             <img src={icon3} alt="Services icons here" />
+             <div className="flex flex-col gap-2">
+              <h6 className="text-3xl font-cormorantGaramond font-bold capitalize">Special Foods</h6>
+              <p className="opacity-[0.7]">celebration of flavors from around the world, crafted </p>
+            </div>
+            <button className="flex justify-center items-center gap-2 text-xl font-cormorantGaramond">Learn More <FaArrowRight/></button>
           </div>
-          <div>
+          <div className="bg-deep-black p-[30px] border border-deep-orange space-y-5">
             <img src={icon4} alt="Services icons here" />
+             <div className="flex flex-col gap-2">
+              <h6 className="text-3xl font-cormorantGaramond font-bold capitalize">Special Foods</h6>
+              <p className="opacity-[0.7]">celebration of flavors from around the world, crafted </p>
+            </div>
+            <button className="flex justify-center items-center gap-2 text-xl font-cormorantGaramond">Learn More <FaArrowRight/></button>
           </div>
         </div>
       </Container>
