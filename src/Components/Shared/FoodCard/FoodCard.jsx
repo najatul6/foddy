@@ -8,7 +8,7 @@ const FoodCard = ({ name, image, price, recipe, type, category }) => {
       </div>
       <div className="w-full">
         <div className="flex justify-between items-center gap-2 w-full">
-          <h4 className="text-2xl font-cormorantGaramond font-bold flex justify-start text-nowrap border">
+          <h4 className="text-2xl font-cormorantGaramond font-bold flex justify-start text-nowrap">
             {name}
           </h4>
           <p className="border-b-2 w-full text-right ">{price}</p>
