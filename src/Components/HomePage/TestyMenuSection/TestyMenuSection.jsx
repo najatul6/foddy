@@ -18,7 +18,7 @@ const TestyMenuSection = () => {
         <div>
             {/* left side image  */}
             <div>
-                <img src="" alt="" />
+                <img src={leftSideImg} alt="Food Related Image" />
             </div>
 
             {/* Menu Items */}
@@ -26,7 +26,7 @@ const TestyMenuSection = () => {
 
             {/* right side image */}
             <div>
-                <img src="" alt="" />
+                <img src={rightSideImg} alt="Food Related Image" />
             </div>
         </div>
       </div>
