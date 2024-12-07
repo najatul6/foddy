@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { reviews } from "../../../utils/reviews";
 
 const Testimonials = () => {
@@ -19,7 +19,9 @@ const Testimonials = () => {
           />
         </div>
         <div className="w-full mt-12">
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <Swiper autoplay={
+           { delay: 1500,}
+          } navigation={true} modules={[Autoplay,Navigation]} className="mySwiper">
             {reviews?.map((review, id) => (
               <SwiperSlide key={id}>
                 <TestimonialCard review={review} />
