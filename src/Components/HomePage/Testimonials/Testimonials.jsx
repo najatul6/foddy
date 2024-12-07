@@ -1,42 +1,31 @@
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import TestimonialCard from "./TestimonialCard";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import required modules
 import { Navigation } from "swiper/modules";
 import { reviews } from "../../../utils/reviews";
 
 const Testimonials = () => {
   return (
-    <div className="py-[120px] bg-deep-orange mt-[120px] flex justify-center items-center">
+    <div className="py-[120px] bg-deep-orange mt-[120px]">
       <Container>
-        <div className="py-[120px] grid grid-cols-2">
-          <div>
+        <div className="w-full">
           <SectionHeader
             heading="Our Guests Share This About Our Foods."
             subHeading="testimonials"
             white={"#FFF"}
           />
-          </div>
-          <div>
-            <Swiper
-              navigation={true}
-              modules={[Navigation]}
-              className="mySwiper"
-            >
-              {reviews?.map((review,id)=>{
-                return <SwiperSlide key={id}>
-                  <TestimonialCard review={review} />
-                </SwiperSlide>
-              })}
-            </Swiper>
-          </div>
+        </div>
+        <div className="w-full mt-12">
+          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            {reviews?.map((review, id) => (
+              <SwiperSlide key={id}>
+                <TestimonialCard review={review} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </Container>
     </div>
