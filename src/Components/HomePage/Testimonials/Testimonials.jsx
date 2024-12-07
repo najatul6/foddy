@@ -7,6 +7,7 @@ const Testimonials = () => {
         <Container>
             <div>
                 <SectionHeader heading="Our Guests Share This About Our Foods." subHeading="testimonials" white={"#FFF"}/>
+                
             </div>
         </Container>
     </div>
