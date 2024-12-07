@@ -1,6 +1,7 @@
 import { Rating } from "@smastrom/react-rating";
 
 import "@smastrom/react-rating/style.css";
+import PropTypes from "prop-types";
 
 const TestimonialCard = ({ review }) => {
   const { name, position, image, review: reviewText, rating } = review;
@@ -13,7 +14,7 @@ const TestimonialCard = ({ review }) => {
       </div>
       <div className="mt-[30px]">
         <Rating style={{ maxWidth: 100 }} value={rating} readOnly />
-        <p className="text-white text-[18px]">{reviewText}</p>
+        <p className="text-white text-[18px]">&ldquo;{reviewText}&rdquo;</p>
         <div className="">
           <h3 className="text-white text-[24px] font-bold">{name}</h3>
           <p className="text-white text-[18px]">{position}</p>
@@ -22,5 +23,9 @@ const TestimonialCard = ({ review }) => {
     </div>
   );
 };
+
+TestimonialCard.propTypes = {
+    review: PropTypes.object,
+}
 
 export default TestimonialCard;
