@@ -1,8 +1,9 @@
 
-const TestimonialCard = () => {
+const TestimonialCard = ({review}) => {
+    
   return (
     <div>
-        
+
     </div>
   )
 }
