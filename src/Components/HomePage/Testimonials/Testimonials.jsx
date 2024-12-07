@@ -9,9 +9,9 @@ import { reviews } from "../../../utils/reviews";
 
 const Testimonials = () => {
   return (
-    <div className="py-[120px] bg-deep-orange mt-[120px]">
+    <div className="py-[30px] bg-deep-orange mt-[120px]">
       <Container>
-        <div className="w-full">
+        <div className="w-1/3 mx-auto text-center">
           <SectionHeader
             heading="Our Guests Share This About Our Foods."
             subHeading="testimonials"
