@@ -16,12 +16,14 @@ const Testimonials = () => {
   return (
     <div className="py-[120px] bg-deep-orange mt-[120px] flex justify-center items-center">
       <Container>
-        <div className="py-[120px]">
+        <div className="py-[120px] grid grid-cols-2">
+          <div>
           <SectionHeader
             heading="Our Guests Share This About Our Foods."
             subHeading="testimonials"
             white={"#FFF"}
           />
+          </div>
           <div>
             <Swiper
               navigation={true}

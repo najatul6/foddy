@@ -3,7 +3,7 @@ export const reviews = [
     id: 1,
     name: "John Doe",
     position: "CEO, Company",
-    image: "https://cdn.dummyjson.com/user-avatar/1.webp",
+    image: "https://cdn.dummyjson.com/recipe-images/13.webp",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit",
     rating: 5,
@@ -12,7 +12,7 @@ export const reviews = [
     id: 2,
     name: "Jane Doe",
     position: "CEO, Company",
-    image: "https://cdn.dummyjson.com/user-avatar/2.webp",
+    image: "https://cdn.dummyjson.com/recipe-images/13.webp",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit",
     rating: 4,
@@ -21,7 +21,7 @@ export const reviews = [
     id: 3,
     name: "John Doe",
     position: "CEO, Company",
-    image: "https://cdn.dummyjson.com/user-avatar/3.webp",
+    image: "https://cdn.dummyjson.com/recipe-images/13.webp",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit",
     rating: 5,
@@ -30,7 +30,7 @@ export const reviews = [
     id: 4,
     name: "Jane Doe",
     position: "CEO, Company",
-    image: "https://cdn.dummyjson.com/user-avatar/4.webp",
+    image: "https://cdn.dummyjson.com/recipe-images/13.webp",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit",
     rating: 4,
@@ -39,7 +39,7 @@ export const reviews = [
     id: 5,
     name: "John Doe",
     position: "CEO, Company",
-    image: "https://cdn.dummyjson.com/user-avatar/5.webp",
+    image: "https://cdn.dummyjson.com/recipe-images/13.webp",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit",
     rating: 5,
@@ -48,7 +48,7 @@ export const reviews = [
     id: 6,
     name: "Jane Doe",
     position: "CEO, Company",
-    image: "https://cdn.dummyjson.com/user-avatar/6.webp",
+    image: "https://cdn.dummyjson.com/recipe-images/13.webp",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit consectetur adipiscing elit. Sed ut mauris sit amet elit",
     rating: 4,
