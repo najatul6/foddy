@@ -8,6 +8,7 @@ import OurBestChefSection from "../../Components/HomePage/OurBestChefSection/Our
 import Testimonials from "../../Components/HomePage/Testimonials/Testimonials"
 import IncrementsSection from "../../Components/HomePage/IncrementsSection/IncrementsSection"
 import BookingTableSection from "../../Components/HomePage/BookingTableSection/BookingTableSection"
+import LatestBlogSection from "../../Components/HomePage/LatestBlogSection/LatestBlogSection"
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Testimonials/>
         <IncrementsSection/>
         <BookingTableSection/>
+        <LatestBlogSection/>
     </div>
   )
 }
