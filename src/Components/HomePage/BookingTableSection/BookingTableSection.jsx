@@ -11,9 +11,10 @@ const BookingTableSection = () => {
         />
         <div className="absolute top-0 opacity-70 w-full mx-auto flex justify-center items-center h-full bg-deep-black z-[100]">
             <Container>
-                <div>
+                <div className="text-center">
                 <SectionHeader heading="Make A Reservations Table" subHeading="Booking Table" />
                 </div>
+                
             </Container>
         </div>
     </div>
