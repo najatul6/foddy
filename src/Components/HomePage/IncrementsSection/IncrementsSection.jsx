@@ -6,6 +6,7 @@ const IncrementsSection = () => {
   return (
     <Container>
       <div>
+        {/* box 1 */}
         <div className="grid grid-cols-2">
           <img src={Rectangle675} alt={"Shape Picture"} />
           <div>
@@ -36,13 +37,14 @@ const IncrementsSection = () => {
             </div>
           </div>
         </div>
+        {/* box 2  */}
         <div className="grid grid-cols-4 place-items-center">
-          <p className="text-2xl col-span-1 capitalize">
+          <p className="text-2xl col-span-2 capitalize">
             Indulge in the comforting warmth and invigorating aroma that only a
             perfect cup of coffee can bring. At Bouffe, we believe in making
             every morning brighter and
           </p>
-          <img src={Rectangle674} alt="Coffee image" className="col-span-3" />
+          <img src={Rectangle674} alt="Coffee image" className="col-span-2" />
         </div>
       </div>
     </Container>
