@@ -1,6 +1,7 @@
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
-import image from "../../../assets/resources/Rectangle 655.png"
+import image from "../../../assets/resources/Rectangle 655.png";
+import Button from "../../Shared/Button/Button";
 
 const LatestBlogSection = () => {
   return (
@@ -13,10 +14,17 @@ const LatestBlogSection = () => {
           />
         </div>
         <div>
+          <div>
+            <img
+              src={image}
+              alt="latest blog"
+              className="w-full object-cover"
+            />
             <div>
-            <img src={image} alt="latest blog" className="w-full object-cover" />
-            
+              <Button text="RECEPIES" />
+              <p>The Art of Food Pairing to Perfect Your Palate Guide</p>
             </div>
+          </div>
         </div>
       </Container>
     </div>
