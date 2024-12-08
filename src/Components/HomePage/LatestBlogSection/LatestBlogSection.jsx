@@ -14,7 +14,7 @@ const LatestBlogSection = () => {
           />
         </div>
         <div>
-          <div>
+          <div className="">
             <img
               src={image}
               alt="latest blog"
@@ -22,7 +22,7 @@ const LatestBlogSection = () => {
             />
             <div>
               <Button text="RECEPIES" />
-              <h2>The Art of Food Pairing to Perfect Your Palate Guide</h2>
+              <h2 className="text-[28px] font-cormorantGaramond font-bold uppercase underline">The Art of Food Pairing to Perfect Your Palate Guide</h2>
               <p className="opacity-[0.8]">
                 Majority have suffered alteration in some form Marketing System
               </p>
