@@ -22,7 +22,20 @@ const LatestBlogSection = () => {
             />
             <div>
               <Button text="RECEPIES" />
-              <p>The Art of Food Pairing to Perfect Your Palate Guide</p>
+              <h2>The Art of Food Pairing to Perfect Your Palate Guide</h2>
+              <p>
+                Majority have suffered alteration in some form Marketing System
+              </p>
+              <div>
+                <img
+                  src={image}
+                  alt="profile pic"
+                  className="w-24 h-24 rounded-full"
+                />
+                <p>David Martin</p>
+              </div>
+              <hr />
+              <p>April 16,2024 / Recipes</p>
             </div>
           </div>
         </div>
