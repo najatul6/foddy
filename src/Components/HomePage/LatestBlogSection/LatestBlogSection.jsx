@@ -14,13 +14,13 @@ const LatestBlogSection = () => {
           />
         </div>
         <div>
-          <div className="">
+          <div className="flex gap-6 justify-center items-center">
             <img
               src={image}
               alt="latest blog"
               className="w-full object-cover"
             />
-            <div>
+            <div className="flex">
               <Button text="RECEPIES" />
               <h2 className="text-[28px] font-cormorantGaramond font-bold uppercase underline">The Art of Food Pairing to Perfect Your Palate Guide</h2>
               <p className="opacity-[0.8]">
