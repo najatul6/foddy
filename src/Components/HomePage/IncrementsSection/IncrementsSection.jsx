@@ -4,12 +4,12 @@ import SectionHeader from '../../Shared/SectionHeader/SectionHeader'
 const IncrementsSection = () => {
   return (
     <Container>
-        <div>
+        <div className='grid grid-cols-2'>
             <img src={Rectangle675} alt={"Shape Picture"} />
             <div>
                 <SectionHeader heading="It's always a good idea to drink of coffee in the mornings and at night, too. It makes mornings better and nights longer." subHeading='Increments'/>
-                <p className='font-cormorantGaramond text-3xl font-bold'>* How to Process Special a Cup of Coffee</p>
-                <div className='flex justify-start items-center gap-10'>
+                <p className='font-cormorantGaramond text-3xl font-bold mt-10'>* How to Process Special a Cup of Coffee</p>
+                <div className='flex justify-start items-center gap-10 mt-10'>
                     <ul className='flex flex-col gap-[30px] list-disc pl-8 border-l-4 border-deep-orange text-2xl font-cormorantGaramond font-medium '>
                         <li>Select Your Coffee Beans</li>
                         <li>Grind Your Coffee Beans</li>
