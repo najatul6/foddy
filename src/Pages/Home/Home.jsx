@@ -6,6 +6,7 @@ import PopularServiceSection from "../../Components/HomePage/PopularServiceSecti
 import TestyMenuSection from "../../Components/HomePage/TestyMenuSection/TestyMenuSection"
 import OurBestChefSection from "../../Components/HomePage/OurBestChefSection/OurBestChefSection"
 import Testimonials from "../../Components/HomePage/Testimonials/Testimonials"
+import IncrementsSection from "../../Components/HomePage/IncrementsSection/IncrementsSection"
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <TestyMenuSection/>
         <OurBestChefSection/>
         <Testimonials/>
+        <IncrementsSection/>
     </div>
   )
 }
