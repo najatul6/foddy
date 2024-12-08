@@ -20,7 +20,7 @@ const LatestBlogSection = () => {
               alt="latest blog"
               className="w-full object-cover"
             />
-            <div className="flex">
+            <div className="flex flex-col justify-start items-start gap-6 h-full">
               <Button text="RECEPIES" />
               <h2 className="text-[28px] font-cormorantGaramond font-bold uppercase underline">The Art of Food Pairing to Perfect Your Palate Guide</h2>
               <p className="opacity-[0.8]">
@@ -34,7 +34,7 @@ const LatestBlogSection = () => {
                 />
                 <p>David Martin</p>
               </div>
-              <hr className="my-6 opacity-[0.5]" />
+              <hr className="my-6 w-full opacity-[0.5]" />
               <p className="uppercase opacity-[0.8]">April 16,2024 / Recipes</p>
             </div>
           </div>
