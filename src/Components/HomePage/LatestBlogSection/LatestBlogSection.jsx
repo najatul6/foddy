@@ -56,7 +56,9 @@ const LatestBlogSection = () => {
                 className="w-[300px] h-[350px]"
               />
               <div className="flex flex-col justify-center items-start gap-5 h-full">
-                <Button text="RECEPIES" />
+                <p className="py-2 md:py-2 px-2 md:px-6 uppercase bg-deep-orange font-semibold  text-white font-cormorantGaramond ">
+                  RECEPIES
+                </p>
                 <h2 className="text-[20px] font-cormorantGaramond font-bold uppercase underline">
                   The Art of Food Pairing to Perfect Your Palate Guide
                 </h2>
