@@ -23,12 +23,12 @@ const BookingTableSection = () => {
               To make a reservation at our restaurant, simply call our booking
               hotline or visit our website
             </p>
-            <div className="w-full  flex gap-6 justify-center items-center">
+            <div className="w-full  flex gap-6 justify-center items-center mt-10">
               {/* Reserve Date  */}
               <div className="relative w-full">
                 <input
                   type="text"
-                  className="text-white w-full bg-transparent border-white border p-5 peer focus:outline-none  placeholder:text-white"
+                  className="text-white w-full bg-transparent rounded-lg border-opacity-[0.7] border-white border p-5 peer focus:outline-none  placeholder:text-white"
                   defaultValue={new Date().toLocaleDateString()}
                   placeholder=" Reserved Date"
                 />
@@ -40,7 +40,7 @@ const BookingTableSection = () => {
               <div className="relative w-full">
                 <input
                   type="text"
-                  className="text-white w-full bg-transparent border-white border p-5 peer focus:outline-none  placeholder:text-white"
+                  className="text-white w-full bg-transparent rounded-lg border-opacity-[0.7] border-white border p-5 peer focus:outline-none  placeholder:text-white"
                   defaultValue="12:00 PM"
                   placeholder="Reserved Time"
                 />
@@ -52,7 +52,7 @@ const BookingTableSection = () => {
               <div className="relative w-full">
                 <input
                   type="text"
-                  className="text-white w-full bg-transparent border-white border p-5 peer focus:outline-none  placeholder:text-white"
+                  className="text-white w-full bg-transparent rounded-lg border-opacity-[0.7] border-white border p-5 peer focus:outline-none  placeholder:text-white"
                   placeholder="Person"
                 />
                 <p className="absolute right-4 top-[25px]">
