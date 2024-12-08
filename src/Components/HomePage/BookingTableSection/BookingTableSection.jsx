@@ -11,56 +11,57 @@ const BookingTableSection = () => {
         alt="food background banner"
         className="w-full object-cover"
       />
-      <div className="absolute top-0 opacity-80 w-full mx-auto flex justify-center items-center h-full bg-deep-black z-[100]">
-        <Container>
-          <div className="text-center">
+      <div className="absolute top-0 opacity-80 flex items-center justify-center w-full h-full bg-deep-black z-[100] ">
+        <div className="text-center w-full">
+          <Container>
             <SectionHeader
               heading="Make A Reservations Table"
               subHeading="Booking Table"
             />
-          </div>
-          <p className="text-center w-2/3 mx-auto opacity-[0.6]">
-            To make a reservation at our restaurant, simply call our booking
-            hotline or visit our website
-          </p>
-          <div>
-            {/* Reserve Date  */}
-            <div className="relative">
-              <input
-                type="text"
-                className="text-white w-full bg-transparent border-white border px-4 py-2 peer focus:outline-none  placeholder:text-white"
-                defaultValue={new Date().toLocaleDateString()}
-                placeholder=" Reserved Date"
-              />
-              <p className="absolute right-4 top-[10px]">
-                <FaCalendarAlt />
-              </p>
+
+            <p className="text-center w-2/3 mx-auto opacity-[0.6]">
+              To make a reservation at our restaurant, simply call our booking
+              hotline or visit our website
+            </p>
+            <div className="w-full  flex gap-6 justify-center items-center">
+              {/* Reserve Date  */}
+              <div className="relative w-full">
+                <input
+                  type="text"
+                  className="text-white w-full bg-transparent border-white border p-5 peer focus:outline-none  placeholder:text-white"
+                  defaultValue={new Date().toLocaleDateString()}
+                  placeholder=" Reserved Date"
+                />
+                <p className="absolute right-4 top-[25px]">
+                  <FaCalendarAlt />
+                </p>
+              </div>
+              {/* Reserve Time */}
+              <div className="relative w-full">
+                <input
+                  type="text"
+                  className="text-white w-full bg-transparent border-white border p-5 peer focus:outline-none  placeholder:text-white"
+                  defaultValue="12:00 PM"
+                  placeholder="Reserved Time"
+                />
+                <p className="absolute right-4 top-[25px]">
+                  <FaClock />
+                </p>
+              </div>
+              {/* Reserve Person */}
+              <div className="relative w-full">
+                <input
+                  type="text"
+                  className="text-white w-full bg-transparent border-white border p-5 peer focus:outline-none  placeholder:text-white"
+                  placeholder="Person"
+                />
+                <p className="absolute right-4 top-[25px]">
+                  <FaPerson />
+                </p>
+              </div>
             </div>
-            {/* Reserve Time */}
-            <div className="relative">
-              <input
-                type="text"
-                className="text-white w-full bg-transparent border-white border px-4 py-2 peer focus:outline-none  placeholder:text-white"
-                defaultValue="12:00 PM"
-                placeholder="Reserved Time"
-              />
-              <p className="absolute right-4 top-[10px]">
-                <FaClock />
-              </p>
-            </div>
-            {/* Reserve Person */}
-            <div className="relative">
-              <input
-                type="text"
-                className="text-white w-full bg-transparent border-white border px-4 py-2 peer focus:outline-none  placeholder:text-white"
-                placeholder="Person"
-              />
-              <p className="absolute right-4 top-[10px]">
-                <FaPerson />
-              </p>
-            </div>
-          </div>
-        </Container>
+          </Container>
+        </div>
       </div>
     </div>
   );
