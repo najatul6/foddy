@@ -23,19 +23,19 @@ const LatestBlogSection = () => {
             <div>
               <Button text="RECEPIES" />
               <h2>The Art of Food Pairing to Perfect Your Palate Guide</h2>
-              <p>
+              <p className="opacity-[0.8]">
                 Majority have suffered alteration in some form Marketing System
               </p>
-              <div>
+              <div className="flex justify-start items-center gap-6">
                 <img
                   src={image}
                   alt="profile pic"
-                  className="w-24 h-24 rounded-full"
+                  className="w-12 h-12 border-2 rounded-full"
                 />
                 <p>David Martin</p>
               </div>
-              <hr />
-              <p>April 16,2024 / Recipes</p>
+              <hr className="my-6 opacity-[0.5]" />
+              <p className="uppercase opacity-[0.8]">April 16,2024 / Recipes</p>
             </div>
           </div>
         </div>
