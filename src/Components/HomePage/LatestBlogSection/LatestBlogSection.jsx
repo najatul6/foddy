@@ -14,6 +14,32 @@ const LatestBlogSection = () => {
           />
         </div>
         <div>
+            {/* card 1 */}
+          <div className="flex gap-6 justify-center items-center">
+            <img
+              src={image}
+              alt="latest blog"
+              className="w-full object-cover"
+            />
+            <div className="flex flex-col justify-start items-start gap-6 h-full">
+              <Button text="RECEPIES" />
+              <h2 className="text-[28px] font-cormorantGaramond font-bold uppercase underline">The Art of Food Pairing to Perfect Your Palate Guide</h2>
+              <p className="opacity-[0.8]">
+                Majority have suffered alteration in some form Marketing System
+              </p>
+              <div className="flex justify-start items-center gap-6">
+                <img
+                  src={image}
+                  alt="profile pic"
+                  className="w-12 h-12 border-2 rounded-full"
+                />
+                <p>David Martin</p>
+              </div>
+              <hr className="my-6 w-full opacity-[0.5]" />
+              <p className="uppercase opacity-[0.8]">April 16,2024 / Recipes</p>
+            </div>
+          </div>
+            {/* card 2 */}
           <div className="flex gap-6 justify-center items-center">
             <img
               src={image}
