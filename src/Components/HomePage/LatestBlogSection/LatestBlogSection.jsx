@@ -2,22 +2,27 @@ import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import image from "../../../assets/resources/Rectangle 655.png";
 import Button from "../../Shared/Button/Button";
+import { FaArrowRight } from "react-icons/fa";
 
 const LatestBlogSection = () => {
   return (
     <div className="mt-[120px] py-24">
       <Container>
         <div>
-          <div className="w-1/2 mx-auto text-center border">
+          <div className="w-1/2 mx-auto text-center">
             <SectionHeader
               heading="Read Our Latest & Trending News Blogs"
               subHeading="Latest Blog"
             />
           </div>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-6 mt-10">
             {/* card 1 */}
             <div className="flex gap-6 justify-center items-center">
-              <img src={image} alt="latest blog" className="w-[300px] h-[350px]" />
+              <img
+                src={image}
+                alt="latest blog"
+                className="w-[300px] h-[350px]"
+              />
               <div className="flex flex-col justify-center items-start gap-5 h-full">
                 <Button text="RECEPIES" />
                 <h2 className="text-[20px] font-cormorantGaramond font-bold uppercase underline">
@@ -43,7 +48,11 @@ const LatestBlogSection = () => {
             </div>
             {/* card 2 */}
             <div className="flex gap-6 justify-center items-center">
-              <img src={image} alt="latest blog" className="w-[300px] h-[350px]" />
+              <img
+                src={image}
+                alt="latest blog"
+                className="w-[300px] h-[350px]"
+              />
               <div className="flex flex-col justify-center items-start gap-5 h-full">
                 <Button text="RECEPIES" />
                 <h2 className="text-[20px] font-cormorantGaramond font-bold uppercase underline">
@@ -67,6 +76,9 @@ const LatestBlogSection = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="flex justify-center items-center mt-10">
+            <Button text="View All Blogs" icon={<FaArrowRight />} />
           </div>
         </div>
       </Container>
