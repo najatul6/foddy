@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="">
       <div className="relative">
         <img src={image1} alt="Food banner" className="w-full object-cover" />
-        <div className="absolute inset-0 text-white flex flex-col justify-center items-center text-center w-4/5 mx-auto">
+        <div className="absolute inset-0 text-white flex flex-col justify-center items-center text-center w-4/5 mx-auto gap-6">
           <h1 className="text-7xl font-cormorantGaramond">
             An Epicurean Adventure Awaits Reserve Your Table Today
           </h1>
