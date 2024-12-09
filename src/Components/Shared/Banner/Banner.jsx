@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import image1 from "../../../assets/resources/Rectangle 560.png";
 import Button from "../Button/Button";
+import PropTypes from "prop-types";
 const Banner = ({heading,subHeading}) => {
   return (
     <>
@@ -20,6 +21,11 @@ const Banner = ({heading,subHeading}) => {
       </div>
     </>
   );
+};
+
+Banner.propTypes = {
+    heading: PropTypes.string,
+    subHeading: PropTypes.string,
 };
 
 export default Banner;
