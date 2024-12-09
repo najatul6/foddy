@@ -1,4 +1,4 @@
-import AboutOurFoodSection from "../../Components/HomePage/AboutOurFoodSection/AboutOurFoodSection";
+import AboutOurFood from "../../Components/AboutPage/AboutOurFood/AboutOurFood";
 import Banner from "../../Components/Shared/Banner/Banner";
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
           "Our menu is a celebration of flavors from around the world, crafted with care and creativity by our talented team of chefs. From savory appetizers to decadent desserts, each dish is a masterpiece"
         }
       />
-      <AboutOurFoodSection />
+      <AboutOurFood />
     </div>
   );
 };
