@@ -10,11 +10,11 @@ const AboutOurFood = () => {
   return (
     <Container>
       <div className="grid grid-cols-5 gap-8 place-items-center">
-        <div className=" col-span-2 ">
-          <div>
+        <div className="col-span-2 relative ">
+          <img src={image1} alt="Food banner" className="w-full flex justify-end items-end" />
+          <div className="absolute -top-10">
             <StickerCircle circleText="Best Restuarant Template by - Najatul islam ·" />
           </div>
-          <img src={image1} alt="Food banner" className="w-full" />
         </div>
 
         <div className="relative w-full col-span-3">
