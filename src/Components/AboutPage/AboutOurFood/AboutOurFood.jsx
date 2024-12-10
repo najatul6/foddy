@@ -1,8 +1,12 @@
-
+import image1 from "../../../assets/resources/Rectangle 632.png"
+import image2 from "../../"
 const AboutOurFood = () => {
   return (
     <div>
-        <img src="https://images.unsplash.com/photo-1606780290004-3b3b3f3b3b3b" alt="Food banner" className="w-full object-cover" />
+        <img src={image1} alt="Food banner" className="w-full" />
+        <div>
+          <img src="" alt="" />
+        </div>
     </div>
   )
 }
