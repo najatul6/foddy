@@ -10,9 +10,9 @@ const AboutOurFood = () => {
     <Container>
       <div className="flex justify-center items-center gap-8">
         <img src={image1} alt="Food banner" />
-        <div>
+        <div className="">
           <img src={image2} alt="Chef with Food banner" />
-          <div className="py-10 px-12 bg-white text-deep-black flex flex-col justify-center items-start gap-4">
+          <div className="py-10 px-12 bg-white text-deep-black flex flex-col justify-center items-start gap-4 w-2/3 space-y-3">
             <SectionHeader
               heading="The Best Delicious Food Made From Us"
               subHeading="About Our Food"
