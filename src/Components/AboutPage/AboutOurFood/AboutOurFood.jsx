@@ -8,7 +8,7 @@ const AboutOurFood = () => {
         <div>
           <img src={image2} alt="Chef with Food banner" className="w-full" />
           <div>
-            <SectionHeader heading="" subHeading="About Our Food"/>
+            <SectionHeader heading="The Best Delicious Food Made From Us" subHeading="About Our Food"/>
           </div>
         </div>
     </div>
