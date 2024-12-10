@@ -10,10 +10,11 @@ const AboutOurFood = () => {
       <img src={image1} alt="Food banner" className="w-full" />
       <div>
         <img src={image2} alt="Chef with Food banner" className="w-full" />
-        <div className="py-10 px-12 bg-white">
+        <div className="py-10 px-12 bg-white text-deep-black">
           <SectionHeader
             heading="The Best Delicious Food Made From Us"
             subHeading="About Our Food"
+            black={"black"}
           />
           <p>
             Our menu is a celebration of flavors from around the world, crafted
@@ -22,7 +23,7 @@ const AboutOurFood = () => {
           </p>
           <div>
             <Button text="About More" icon={<FaArrowRight />} />
-            <div>
+            <div className="text-deep-black">
               <div className="w-10 h-10 rounded-full bg-deep-orange bg-opacity-[10%] p-[10px]">
                 <FiPhoneIncoming  size={20}  className="text-deep-orange"/>
               </div>
