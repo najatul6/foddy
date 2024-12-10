@@ -21,11 +21,11 @@ const AboutOurFood = () => {
             with care and creativity by our talented team of chefs. From savory
             appetizers to decadent desserts, each dish is a masterpiece
           </p>
-          <div>
+          <div className="flex justify-start items-center gap-5">
             <Button text="About More" icon={<FaArrowRight />} />
-            <div className="text-deep-black">
+            <div className=" flex justify-center items-center gap-5">
               <div className="w-10 h-10 rounded-full bg-deep-orange bg-opacity-[10%] p-[10px]">
-                <FiPhoneIncoming  size={20}  className="text-deep-orange"/>
+                <FiPhoneIncoming size={20} className="text-deep-orange" />
               </div>
               <div>
                 <p className="text-xs opacity-[0.6]">Call For Order</p>
