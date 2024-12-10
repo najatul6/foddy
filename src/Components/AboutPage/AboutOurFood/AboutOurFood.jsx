@@ -9,13 +9,15 @@ import StickerCircle from "../../Shared/StickerCircle/StickerCircle";
 const AboutOurFood = () => {
   return (
     <Container>
-      <div className="flex justify-center items-center gap-8">
-        <div>
-          <StickerCircle  />
-          <img src={image1} alt="Food banner" />
+      <div className="grid grid-cols-5 gap-8 place-items-center">
+        <div className=" col-span-2 ">
+          <div>
+            <StickerCircle circleText="Best Restuarant Template by - Najatul islam ·" />
+          </div>
+          <img src={image1} alt="Food banner" className="w-full" />
         </div>
 
-        <div className="relative w-full">
+        <div className="relative w-full col-span-3">
           <img src={image2} alt="Chef with Food banner" className="" />
           <div className="py-10 px-12 bg-white text-deep-black  absolute gap-4 w-2/3 bottom-0 right-0">
             <SectionHeader
