@@ -12,15 +12,15 @@ const AboutOurFood = () => {
     <Container>
       <div className="grid grid-cols-5 gap-8 place-items-center">
         <div className="col-span-2 relative ">
-          <img src={image1} alt="Food banner" className="w-full flex justify-end items-end" />
-          <div className="absolute -top-10">
+          <img src={image1} alt="Food banner" className="w-full pt-24" />
+          <div className="absolute -top-0 left-10">
             <StickerCircle circleText="Best Restuarant Template by - Najatul islam ·" />
           </div>
         </div>
 
         <div className="relative w-full col-span-3">
           <img src={image2} alt="Chef with Food banner" className="" />
-          <div className="py-10 px-12 bg-white text-deep-black  absolute gap-4 w-2/3 bottom-0 right-0">
+          <div className="py-10 px-12 bg-white text-deep-black space-y-3  absolute gap-4 w-2/3 bottom-0 right-0">
             <SectionHeader
               heading="The Best Delicious Food Made From Us"
               subHeading="About Our Food"
