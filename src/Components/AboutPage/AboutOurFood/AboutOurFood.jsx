@@ -10,7 +10,7 @@ const AboutOurFood = () => {
       <img src={image1} alt="Food banner" className="w-full" />
       <div>
         <img src={image2} alt="Chef with Food banner" className="w-full" />
-        <div>
+        <div className="py-10 px-12 bg-white">
           <SectionHeader
             heading="The Best Delicious Food Made From Us"
             subHeading="About Our Food"
@@ -23,8 +23,8 @@ const AboutOurFood = () => {
           <div>
             <Button text="About More" icon={<FaArrowRight />} />
             <div>
-              <div>
-                <MdPhoneCallback />
+              <div className="w-10 h-10 rounded-full bg-deep-orange bg-opacity-[10%]">
+                <MdPhoneCallback size={20}  className="text-deep-orange"/>
               </div>
               <div>
                 <p>Call For Order</p>
