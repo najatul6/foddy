@@ -3,7 +3,7 @@ import image2 from "../../../assets/resources/Rectangle 631.png";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import Button from "../../Shared/Button/Button";
 import { FaArrowRight } from "react-icons/fa";
-import { MdPhoneCallback } from "react-icons/md";
+import { FiPhoneIncoming } from "react-icons/fi";
 const AboutOurFood = () => {
   return (
     <div>
@@ -23,12 +23,12 @@ const AboutOurFood = () => {
           <div>
             <Button text="About More" icon={<FaArrowRight />} />
             <div>
-              <div className="w-10 h-10 rounded-full bg-deep-orange bg-opacity-[10%]">
-                <MdPhoneCallback size={20}  className="text-deep-orange"/>
+              <div className="w-10 h-10 rounded-full bg-deep-orange bg-opacity-[10%] p-[10px]">
+                <FiPhoneIncoming  size={20}  className="text-deep-orange"/>
               </div>
               <div>
-                <p>Call For Order</p>
-                <h6>+8801773827414</h6>
+                <p className="text-xs opacity-[0.6]">Call For Order</p>
+                <h6 className="font-medium">+8801773827414</h6>
               </div>
             </div>
           </div>
