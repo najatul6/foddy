@@ -5,11 +5,16 @@ import Button from "../../Shared/Button/Button";
 import { FaArrowRight } from "react-icons/fa";
 import { FiPhoneIncoming } from "react-icons/fi";
 import Container from "../../Shared/Container/Container";
+import StickerCircle from "../../Shared/StickerCircle/StickerCircle";
 const AboutOurFood = () => {
   return (
     <Container>
       <div className="flex justify-center items-center gap-8">
-        <img src={image1} alt="Food banner" />
+        <div>
+          <StickerCircle  />
+          <img src={image1} alt="Food banner" />
+        </div>
+
         <div className="relative w-full">
           <img src={image2} alt="Chef with Food banner" className="" />
           <div className="py-10 px-12 bg-white text-deep-black  absolute gap-4 w-2/3 bottom-0 right-0">
