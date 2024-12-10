@@ -8,6 +8,7 @@ import Container from "../../Shared/Container/Container";
 import StickerCircle from "../../Shared/StickerCircle/StickerCircle";
 const AboutOurFood = () => {
   return (
+    <div className="mt-[120px]">
     <Container>
       <div className="grid grid-cols-5 gap-8 place-items-center">
         <div className="col-span-2 relative ">
@@ -47,6 +48,7 @@ const AboutOurFood = () => {
         </div>
       </div>
     </Container>
+    </div>
   );
 };
 
