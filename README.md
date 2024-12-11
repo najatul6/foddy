@@ -32,7 +32,7 @@ Follow the steps below to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/foddy.git
+   git clone https://github.com/najatul6/foddy.git
    cd foddy
    ```
 
