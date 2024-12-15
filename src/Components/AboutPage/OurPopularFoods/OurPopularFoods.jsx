@@ -24,8 +24,13 @@ const OurPopularFoods = () => {
             <div key={food.id}>
               <div className="flex flex-col items-center justify-center text-center bg-deep-black p-[30px]">
                 <img src={food.image} alt={food.name} className="" />
-                <h3 className="text-[30px] font-cormorantGaramond">{food.name}</h3>
+                <h3 className="text-[30px] text-white capitalize font-bold font-cormorantGaramond">
+                  {food.name}
+                </h3>
                 <p className="text-white opacity-[0.6]">{food.description}</p>
+                <button className="text-white font-cormorantGaramond text-base">
+                  View More &rarr;
+                </button>
               </div>
             </div>
           ))}
