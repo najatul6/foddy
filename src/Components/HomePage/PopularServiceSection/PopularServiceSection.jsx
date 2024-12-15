@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const PopularServiceSection = () => {
   return (
-    <div className="bg-white bg-opacity-[0.05] py-[120px] mt-[120px]">
+    <div className="bg-white bg-opacity-[0.05] py-[120px]">
       <Container>
         <div className="flex flex-col gap-12">
           <div className="flex justify-between items-center">
