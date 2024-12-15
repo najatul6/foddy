@@ -3,6 +3,10 @@ import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import Button from "../../Shared/Button/Button";
 import { FaArrowRight } from "react-icons/fa6";
+import image1 from "../../../assets/resources/Rectangle 638 (1).png";
+import image2 from "../../../assets/resources/Rectangle 639.png";
+import image3 from "../../../assets/resources/Rectangle 640.png";
+import image4 from "../../../assets/resources/Rectangle 641.png";
 
 const OurBestChefs = () => {
   return (
@@ -21,7 +25,7 @@ const OurBestChefs = () => {
             challenges, and elimination rounds. They are judged by a panel of
             professional.
           </p>
-          <div className="flex flex-col justify-start items-start gap-5 text-white text-2xl relative py-5 px-4">
+          <div className="flex flex-col justify-start items-start gap-5 text-white text-2xl relative py-5 px-4 ml-[30px]">
             {/* Border Styling */}
             <div className="absolute inset-0 border-l border-deep-orange"></div>
             <div className="absolute top-0 left-0 w-1/5 border-t border-deep-orange"></div>
@@ -38,7 +42,12 @@ const OurBestChefs = () => {
           </div>
           <Button text="Become a chef’s" icon={<FaArrowRight />} withOutbg />
         </div>
-        <div></div>
+        <div>
+          <img src={image1} alt="Chef Profile picture" />
+          <img src={image2} alt="Chef Profile picture" />
+          <img src={image3} alt="Chef Profile picture" />
+          <img src={image4} alt="Chef Profile picture" />
+        </div>
       </div>
     </Container>
   );
