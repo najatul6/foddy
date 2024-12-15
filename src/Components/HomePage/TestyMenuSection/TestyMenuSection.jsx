@@ -9,7 +9,6 @@ import { FaArrowRight } from "react-icons/fa";
 
 const TestyMenuSection = () => {
   const yummyMenu = recipes?.slice(0, 4);
-  console.log(yummyMenu);
   return (
     <Container>
       {/* Section Header */}
