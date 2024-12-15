@@ -11,5 +11,7 @@ const Button = ({ text, icon,withBg,withOutbg }) => {
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   icon: PropTypes.element.isRequired,
+  withBg: PropTypes.bool,
+  withOutbg: PropTypes.bool
 };
 export default Button;
