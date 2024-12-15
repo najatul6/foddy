@@ -4,7 +4,7 @@ import Banner from "../../Components/Shared/Banner/Banner";
 
 const About = () => {
   return (
-    <div>
+    <div className="space-y-[120px]">
       <Banner
         heading={"An Epicurean Adventure Awaits Reserve Your Table Today"}
         subHeading={
@@ -13,7 +13,7 @@ const About = () => {
       />
       <AboutOurFood />
       <OurPopularFoods/>
-      
+
     </div>
   );
 };
