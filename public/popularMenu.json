@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Combo Pack",
+        "description": "Our menu, meticulously curated by our talented chefs, showcases a harmonious blend of flavors",
+        "image": "burger.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pizza & Drink",
+       "description": "Our menu, meticulously curated by our talented chefs, showcases a harmonious blend of flavors",
+        "image": "pizza.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chicken",
+        "description": "Our menu, meticulously curated by our talented chefs, showcases a harmonious blend of flavors",
+        "image": "pizza.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Box & Meals",
+        "description": "Our menu, meticulously curated by our talented chefs, showcases a harmonious blend of flavors",
+        "image": "pasta.jpg"
+    }
+]
