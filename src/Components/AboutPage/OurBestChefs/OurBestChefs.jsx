@@ -20,11 +20,11 @@ const OurBestChefs = () => {
             professional.
           </p>
           <div>
-            <p>
+            <p className="font-cormorantGaramond flex justify-center items-center gap-[10px]">
               <IoIosCheckmarkCircle /> 15 years Experience in Restaurant
               Chef&rsquo;s in London
             </p>
-            <p>
+            <p className="font-cormorantGaramond flex justify-center items-center gap-[10px]">
               <IoIosCheckmarkCircle /> Any Kind Of Food Made Yummy & Testy Food
             </p>
           </div>
