@@ -4,12 +4,13 @@ import Button from "../../Shared/Button/Button";
 import FoodCard from "../../Shared/FoodCard/FoodCard";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import banner from "../../../assets/resources/Rectangle 5.png";
+import Container from "../../Shared/Container/Container";
 
 const BestFoodMenu = () => {
   const yummyMenu = recipes?.slice(0, 4);
   return (
     <Container>
-      <div>
+      <div className="flex justify-center items-center gap-14">
         <div>
           <SectionHeader
             subHeading="Best Food Menu"
