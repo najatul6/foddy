@@ -2,6 +2,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import Button from "../../Shared/Button/Button";
+import { FaArrowRight } from "react-icons/fa6";
 
 const OurBestChefs = () => {
   return (
@@ -35,7 +36,7 @@ const OurBestChefs = () => {
               <IoIosCheckmarkCircle /> Any Kind Of Food Made Yummy & Testy Food
             </p>
           </div>
-          <Button />
+          <Button text="Become a chef’s" icon={<FaArrowRight />} />
         </div>
         <div></div>
       </div>
