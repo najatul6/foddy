@@ -12,7 +12,7 @@ import LatestBlogSection from "../../Components/HomePage/LatestBlogSection/Lates
 
 const Home = () => {
   return (
-    <div className="text-white">
+    <div className="text-white space-y-[120px]">
         <Banner/>
         <AboutOurFoodSection />
         <FindRestaurant />
