@@ -6,7 +6,7 @@ import { FaPerson } from "react-icons/fa6";
 import Button from "../../Shared/Button/Button";
 const BookingTableSection = () => {
   return (
-    <div className="relative mt-[120px]">
+    <div className="relative">
       <img
         src={Rectangle686}
         alt="food background banner"
