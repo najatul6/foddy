@@ -8,7 +8,7 @@ const Award = () => {
   return (
     <div className="bg-white py-12">
       <Container>
-        <div className="flex justify-center items-center gap-[120px]">
+        <div className="flex justify-center items-center gap-32 w-full">
         <img src={award1} alt="" />
         <img src={award2} alt="" />
         <img src={award3} alt="" />
