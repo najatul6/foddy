@@ -5,7 +5,7 @@ import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 const IncrementsSection = () => {
   return (
     <Container>
-      <div className="-space-y-48 mt-[120px]">
+      <div className="-space-y-48">
         {/* box 1 */}
         <div className="grid grid-cols-2">
           <img src={Rectangle675} alt={"Shape Picture"} className="z-[100]" />
