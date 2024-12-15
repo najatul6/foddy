@@ -15,7 +15,6 @@ import ChefCard from "./ChefCard";
 
 const OurBestChefSection = () => {
   return (
-    <div className="mt-[120px]">
         <Container>
             <div className="w-1/3 mx-auto text-center">
                 <SectionHeader heading={"Meet Our Exclusive Kitchen Teams"} subHeading={"OUR best chef’s"}/>
@@ -59,7 +58,6 @@ const OurBestChefSection = () => {
                 </Swiper>
             </div>
         </Container>
-    </div>
   )
 }
 
