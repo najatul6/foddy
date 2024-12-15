@@ -11,7 +11,7 @@ import image4 from "../../../assets/resources/Rectangle 641.png";
 const OurBestChefs = () => {
   return (
     <Container>
-      <div>
+      <div className="flex justify-center items-center gap-10">
         <div>
           <div className="w-1/3 text-left">
             <SectionHeader
@@ -42,7 +42,7 @@ const OurBestChefs = () => {
           </div>
           <Button text="Become a chef’s" icon={<FaArrowRight />} withOutbg />
         </div>
-        <div>
+        <div className="grid grid-cols-2 gap-5">
           <img src={image1} alt="Chef Profile picture" />
           <img src={image2} alt="Chef Profile picture" />
           <img src={image3} alt="Chef Profile picture" />
