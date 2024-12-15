@@ -13,6 +13,7 @@ const About = () => {
       />
       <AboutOurFood />
       <OurPopularFoods/>
+      
     </div>
   );
 };
