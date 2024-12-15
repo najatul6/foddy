@@ -1,4 +1,5 @@
 import AboutOurFood from "../../Components/AboutPage/AboutOurFood/AboutOurFood";
+import BestFoodMenu from "../../Components/AboutPage/BestFoodMenu/BestFoodMenu";
 import OurPopularFoods from "../../Components/AboutPage/OurPopularFoods/OurPopularFoods";
 import Banner from "../../Components/Shared/Banner/Banner";
 
@@ -13,7 +14,7 @@ const About = () => {
       />
       <AboutOurFood />
       <OurPopularFoods/>
-
+        <BestFoodMenu />
     </div>
   );
 };

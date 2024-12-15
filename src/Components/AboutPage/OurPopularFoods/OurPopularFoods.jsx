@@ -11,7 +11,7 @@ const OurPopularFoods = () => {
       .then((data) => setPopularFoods(data));
   }, []);
   return (
-    <div className="py-[120px] bg-white bg-opacity-[0.05] mt-[120px]">
+    <div className="py-[120px] bg-white bg-opacity-[0.05]">
       <Container>
         <div className="flex justify-center items-center flex-col">
           <SectionHeader
