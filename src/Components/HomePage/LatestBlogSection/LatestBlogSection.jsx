@@ -82,7 +82,7 @@ const LatestBlogSection = () => {
             </div>
           </div>
           <div className="flex justify-center items-center mt-10">
-            <Button text="View All Blogs" icon={<FaArrowRight />} />
+            <Button text="View All Blogs" icon={<FaArrowRight />} withBg />
           </div>
         </div>
       </Container>

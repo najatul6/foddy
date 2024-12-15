@@ -30,7 +30,7 @@ const FindRestaurant = () => {
               <p>+880 177 382 7414</p>
             </div>
             <div className="flex justify-start items-center gap-7 mt-10">
-              <Button text="contact us" icon={<FaArrowRight />} />
+              <Button text="contact us" icon={<FaArrowRight />} withBg />
               <span className="text-2xl font-medium">or</span>
               <div className="hover:text-deep-orange text-2xl font-bold">
                 <FaFacebook />

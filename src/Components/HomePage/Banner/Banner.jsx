@@ -41,7 +41,7 @@ const Banner = () => {
       </div>
       <div className="w-[450px] h-[250px] flex justify-center flex-col items-start gap-4 px-4 top-[50%] absolute left-[20%] bg-deep-black">
         <h3 className="text-4xl font-cormorantGaramond capitalize">celebration of flavors  from around the world crafted. </h3>
-        <Button text="View Our Menu" icon={<FaArrowRight />} />
+        <Button text="View Our Menu" icon={<FaArrowRight />} withBg />
       </div>
     </div>
   );

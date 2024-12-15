@@ -99,7 +99,7 @@ const RightSection = () => {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-5 mt-12">
-        <Button text="About More" icon={<FaArrowRight />} />
+        <Button text="About More" icon={<FaArrowRight />} withBg />
         <div className="flex justify-center items-center gap-3">
           <div className="rounded-full p-3 bg-deep-orange bg-opacity-[10%]">
             <FiPhoneIncoming className="text-deep-orange" />

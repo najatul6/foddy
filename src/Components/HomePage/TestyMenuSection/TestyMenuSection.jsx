@@ -40,7 +40,7 @@ const TestyMenuSection = () => {
         <img src={rightSideImg} alt="Food Related Image" />
       </div>
       <div className="flex justify-center items-center">
-        <Button text="About More" icon={<FaArrowRight />} />
+        <Button text="About More" icon={<FaArrowRight />} withBg />
       </div>
     </Container>
   );
