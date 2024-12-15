@@ -11,11 +11,13 @@ const BestFoodMenu = () => {
   return (
     <Container>
       <div className="flex justify-center items-center gap-14">
-        <div>
-          <SectionHeader
-            subHeading="Best Food Menu"
-            heading="Choose Your Best Menu&rsquo;s"
-          />
+        <div className="space-y-[50px]">
+          <div>
+            <SectionHeader
+              subHeading="Best Food Menu"
+              heading="Choose Your Best Menu&rsquo;s"
+            />
+          </div>
           {/* Menu Items */}
           <div className="w-full flex flex-col gap-10 text-white">
             {yummyMenu?.map((recipe, index) => (
@@ -29,7 +31,7 @@ const BestFoodMenu = () => {
             ))}
           </div>
           <div className="flex justify-center items-center">
-            <Button text="About More" icon={<FaArrowRight />} />
+            <Button text="View More Menu" icon={<FaArrowRight />} />
           </div>
         </div>
         <img src={banner} alt="Yummy Foods Banner" />
