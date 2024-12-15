@@ -19,7 +19,7 @@ const OurBestChefs = () => {
             challenges, and elimination rounds. They are judged by a panel of
             professional.
           </p>
-          <div className="flex flex-col justify-start items-start gap-5 text-white text-2xl relative">
+          <div className="flex flex-col justify-start items-start gap-5 text-white text-2xl relative py-5 px-4">
             {/* Border Styling */}
             <div className="absolute inset-0 border-l-4 border-white"></div>
             <div className="absolute top-0 left-0 w-1/5 border-t-4 border-white"></div>
