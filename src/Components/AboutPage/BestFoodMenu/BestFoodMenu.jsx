@@ -1,28 +1,40 @@
+import { FaArrowRight } from "react-icons/fa";
 import { recipes } from "../../../utils/recipes";
+import Button from "../../Shared/Button/Button";
 import FoodCard from "../../Shared/FoodCard/FoodCard";
-import SectionHeader from "../../Shared/SectionHeader/SectionHeader"
+import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
+import banner from "../../../assets/resources/Rectangle 5.png";
 
 const BestFoodMenu = () => {
   const yummyMenu = recipes?.slice(0, 4);
   return (
-    <div>
+    <Container>
+      <div>
         <div>
-            <SectionHeader subHeading="Best Food Menu" heading="Choose Your Best Menu&rsquo;s"/>
-              {/* Menu Items */}
-                    <div className="w-full flex flex-col gap-10 text-white">
-                      {yummyMenu?.map((recipe, index) => (
-                        <FoodCard
-                          key={index}
-                          name={recipe?.name}
-                          image={recipe?.image}
-                          price={recipe?.price}
-                          recipe={recipe?.recipe}
-                        />
-                      ))}
-                    </div>
+          <SectionHeader
+            subHeading="Best Food Menu"
+            heading="Choose Your Best Menu&rsquo;s"
+          />
+          {/* Menu Items */}
+          <div className="w-full flex flex-col gap-10 text-white">
+            {yummyMenu?.map((recipe, index) => (
+              <FoodCard
+                key={index}
+                name={recipe?.name}
+                image={recipe?.image}
+                price={recipe?.price}
+                recipe={recipe?.recipe}
+              />
+            ))}
+          </div>
+          <div className="flex justify-center items-center">
+            <Button text="About More" icon={<FaArrowRight />} />
+          </div>
         </div>
-    </div>
-  )
-}
+        <img src={banner} alt="Yummy Foods Banner" />
+      </div>
+    </Container>
+  );
+};
 
-export default BestFoodMenu
+export default BestFoodMenu;
