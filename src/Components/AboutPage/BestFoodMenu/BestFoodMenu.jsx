@@ -9,7 +9,7 @@ const BestFoodMenu = () => {
         <div>
             <SectionHeader subHeading="Best Food Menu" heading="Choose Your Best Menu&rsquo;s"/>
               {/* Menu Items */}
-                    <div className="w-full flex flex-col gap-10">
+                    <div className="w-full flex flex-col gap-10 text-white">
                       {yummyMenu?.map((recipe, index) => (
                         <FoodCard
                           key={index}
