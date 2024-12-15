@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const LatestBlogSection = () => {
   return (
-    <div className="mt-[120px] py-24">
+    <div className="py-24">
       <Container>
         <div>
           <div className="w-1/2 mx-auto text-center">
