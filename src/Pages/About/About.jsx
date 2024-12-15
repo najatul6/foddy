@@ -13,8 +13,8 @@ const About = () => {
         }
       />
       <AboutOurFood />
-      <OurPopularFoods/>
-        <BestFoodMenu />
+      <OurPopularFoods />
+      <BestFoodMenu />
     </div>
   );
 };
