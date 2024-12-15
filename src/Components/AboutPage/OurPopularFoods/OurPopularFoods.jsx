@@ -22,13 +22,10 @@ const OurPopularFoods = () => {
         <div>
           {popularFoods?.map((food) => (
             <div key={food.id}>
-              <div>
-                <img src={food.image} alt={food.title} className="" />
-              </div>
-              <div>
-                <h3>{food.title}</h3>
+              <div className="flex flex-col items-center justify-center text-center">
+                <img src={food.image} alt={food.name} className="" />
+                <h3>{food.name}</h3>
                 <p>{food.description}</p>
-                <p>{food.price}</p>
               </div>
             </div>
           ))}
