@@ -36,7 +36,7 @@ const OurBestChefs = () => {
               <IoIosCheckmarkCircle /> Any Kind Of Food Made Yummy & Testy Food
             </p>
           </div>
-          <Button text="Become a chef’s" icon={<FaArrowRight />} />
+          <Button text="Become a chef’s" icon={<FaArrowRight />} withOutbg />
         </div>
         <div></div>
       </div>

@@ -31,7 +31,7 @@ const BestFoodMenu = () => {
             ))}
           </div>
           <div className="flex justify-center items-center">
-            <Button text="View More Menu" icon={<FaArrowRight />} />
+            <Button text="View More Menu" icon={<FaArrowRight />} withBg />
           </div>
         </div>
         <img src={banner} alt="Yummy Foods Banner" />

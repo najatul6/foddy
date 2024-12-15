@@ -15,7 +15,7 @@ const Banner = ({heading,subHeading}) => {
             {subHeading}
           </p>
           <div className="flex justify-center items-center">
-            <Button text="View Our Menu" icon={<FaArrowRight />} />
+            <Button text="View Our Menu" icon={<FaArrowRight />} withBg />
           </div>
         </div>
       </div>

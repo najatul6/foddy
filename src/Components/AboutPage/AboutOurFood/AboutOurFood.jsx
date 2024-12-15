@@ -32,7 +32,7 @@ const AboutOurFood = () => {
               masterpiece
             </p>
             <div className="flex justify-start items-center gap-5">
-              <Button text="About More" icon={<FaArrowRight />} />
+              <Button text="About More" icon={<FaArrowRight />} withBg />
               <div className=" flex justify-center items-center gap-5">
                 <div className="w-10 h-10 rounded-full bg-deep-orange bg-opacity-[10%] p-[10px]">
                   <FiPhoneIncoming size={20} className="text-deep-orange" />
