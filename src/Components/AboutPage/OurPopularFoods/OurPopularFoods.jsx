@@ -19,7 +19,20 @@ const OurPopularFoods = () => {
             subHeading="Our Popular Foods"
           />
         </div>
-        <div>{popularFoods?.length}</div>
+        <div>
+          {popularFoods?.map((food) => (
+            <div key={food.id}>
+              <div>
+                <img src={food.image} alt={food.title} className="" />
+              </div>
+              <div>
+                <h3>{food.title}</h3>
+                <p>{food.description}</p>
+                <p>{food.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </Container>
     </div>
   );
