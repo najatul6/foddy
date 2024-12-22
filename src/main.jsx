@@ -6,6 +6,8 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <HelmetProvider>
     <RouterProvider router={Routes}/>
+    </HelmetProvider>
   </StrictMode>,
 )
