@@ -1,13 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { RouterProvider } from 'react-router-dom'
-import Routes from './Router/Routes.jsx'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
+import Routes from "./Router/Routes.jsx";
+import "./index.css";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HelmetProvider>
-    <RouterProvider router={Routes}/>
+      <RouterProvider router={Routes} />
     </HelmetProvider>
-  </StrictMode>,
-)
+  </StrictMode>
+);
