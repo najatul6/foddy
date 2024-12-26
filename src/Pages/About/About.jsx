@@ -3,6 +3,7 @@ import BestFoodMenu from "../../Components/AboutPage/BestFoodMenu/BestFoodMenu";
 import OurBestChefs from "../../Components/AboutPage/OurBestChefs/OurBestChefs";
 import OurPopularFoods from "../../Components/AboutPage/OurPopularFoods/OurPopularFoods";
 import Banner from "../../Components/Shared/Banner/Banner";
+import Container from "../../Components/Shared/Container/Container";
 import StickerCircle from "../../Components/Shared/StickerCircle/StickerCircle";
 import image from "../../assets/resources/Rectangle 642.png";
 
@@ -19,12 +20,14 @@ const About = () => {
       <OurPopularFoods />
       <BestFoodMenu />
       <OurBestChefs />
-      <div className="relative">
-        <img src={image} alt="Image Banner" />
-        <div className="absolute top-[40%] left-[40%]">
-          <StickerCircle circleText="---------------See Our Menu---------------" />
+      <Container>
+        <div className="relative">
+          <img src={image} alt="Image Banner" />
+          <div className="absolute top-[40%] left-[40%]">
+            <StickerCircle circleText="---------------See Our Menu---------------" />
+          </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };
