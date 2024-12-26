@@ -29,7 +29,7 @@ const Navbar = () => {
         <ul className="flex flex-col lg:flex-row justify-between items-center gap-6 px-5 py-5 md:py-2 lg:py-0">
           {routes?.map((route) => (
             <li
-              key={route}
+              key={route?.id}
               className={`${
                 isOpen
                   ? "translate-y-0 transition-all duration-300"
