@@ -3,6 +3,7 @@ import BestFoodMenu from "../../Components/AboutPage/BestFoodMenu/BestFoodMenu";
 import OurBestChefs from "../../Components/AboutPage/OurBestChefs/OurBestChefs";
 import OurPopularFoods from "../../Components/AboutPage/OurPopularFoods/OurPopularFoods";
 import Banner from "../../Components/Shared/Banner/Banner";
+import StickerCircle from "../../Components/Shared/StickerCircle/StickerCircle";
 import image from "../../assets/resources/Rectangle 642.png";
 
 const About = () => {
@@ -19,7 +20,8 @@ const About = () => {
       <BestFoodMenu />
       <OurBestChefs/>
       <div>
-        <img src={image} alt="Ima" />
+        <img src={image} alt="Image Banner" />
+        <StickerCircle/>
       </div>
     </div>
   );
