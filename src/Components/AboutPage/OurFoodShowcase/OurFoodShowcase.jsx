@@ -1,9 +1,10 @@
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
-import image1 from "../../../assets/resources/Rectangle 642.png"
-import image2 from "../../../assets/resources/Rectangle 661.png"
-import image3 from "../../../assets/resources/Rectangle 660.png"
-import image4 from "../../../assets/resources/Rectangle 663.png"
+import image1 from "../../../assets/resources/Rectangle 642.png";
+import image2 from "../../../assets/resources/Rectangle 661.png";
+import image3 from "../../../assets/resources/Rectangle 660.png";
+import image4 from "../../../assets/resources/Rectangle 663.png";
+import { FaSearch } from "react-icons/fa";
 
 const OurFoodShowcase = () => {
   return (
@@ -15,7 +16,17 @@ const OurFoodShowcase = () => {
           with care and creativity
         </p>
       </div>
-
+      <div>
+        <div className="w-full flex flex-col justify-center items-center gap-6">
+          <img src={image1} alt="bengali food" className="w-full" />
+          <div className="flex flex-col justify-center items-center border-2 border-white border-dashed w-full h-full">
+            <div className="bg-white p-2 rounded-full">
+              <FaSearch size={30} className="text-deep-orange" />
+            </div>
+            <h1 className="text-2xl font-bold font-cormorantGaramond text-white">Italian Chicken Grilled</h1>
+          </div>
+        </div>
+      </div>
     </Container>
   );
 };
