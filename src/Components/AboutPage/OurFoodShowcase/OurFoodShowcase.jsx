@@ -17,9 +17,9 @@ const OurFoodShowcase = () => {
         </p>
       </div>
       <div>
-        <div className="w-full flex flex-col justify-center items-center gap-6 group">
+        <div className="w-full flex flex-col justify-center items-center gap-6 group relative">
           <img src={image1} alt="bengali food" className="w-full" />
-          <div className="flex-col hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-full h-full">
+          <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
               <FaSearch size={30} className="text-deep-orange" />
             </div>
