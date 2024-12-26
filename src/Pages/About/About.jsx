@@ -18,10 +18,12 @@ const About = () => {
       <AboutOurFood />
       <OurPopularFoods />
       <BestFoodMenu />
-      <OurBestChefs/>
-      <div>
+      <OurBestChefs />
+      <div className="relative">
         <img src={image} alt="Image Banner" />
-        <StickerCircle circleText="---------See Our Menu---------"/>
+        <div className="absolute top-[40%] left-[40%]">
+          <StickerCircle circleText="---------------See Our Menu---------------" />
+        </div>
       </div>
     </div>
   );
