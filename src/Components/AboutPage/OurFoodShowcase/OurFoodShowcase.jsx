@@ -1,5 +1,9 @@
 import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
+import image1 from "../../../assets/resources/Rectangle 642.png"
+import image2 from "../../../assets/resources/Rectangle 661.png"
+import image3 from "../../../assets/resources/Rectangle 660.png"
+import image4 from "../../../assets/resources/Rectangle 663.png"
 
 const OurFoodShowcase = () => {
   return (
@@ -11,7 +15,7 @@ const OurFoodShowcase = () => {
           with care and creativity
         </p>
       </div>
-      
+
     </Container>
   );
 };
