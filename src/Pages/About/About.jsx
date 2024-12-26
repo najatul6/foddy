@@ -3,6 +3,7 @@ import BestFoodMenu from "../../Components/AboutPage/BestFoodMenu/BestFoodMenu";
 import OurBestChefs from "../../Components/AboutPage/OurBestChefs/OurBestChefs";
 import OurPopularFoods from "../../Components/AboutPage/OurPopularFoods/OurPopularFoods";
 import Banner from "../../Components/Shared/Banner/Banner";
+import image from "../../assets/resources/Rectangle 642.png";
 
 const About = () => {
   return (
@@ -17,6 +18,9 @@ const About = () => {
       <OurPopularFoods />
       <BestFoodMenu />
       <OurBestChefs/>
+      <div>
+        <img src={image} alt="Ima" />
+      </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const OurBestChefs = () => {
   return (
     <Container>
       <div className="flex justify-center items-center gap-10">
-        <div>
+        <div className="space-y-[30px]">
           <div className="w-1/3 text-left">
             <SectionHeader
               heading={"Meet Our Exclusive & Master Chef’s"}
