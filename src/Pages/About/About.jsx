@@ -21,7 +21,7 @@ const About = () => {
       <OurBestChefs/>
       <div>
         <img src={image} alt="Image Banner" />
-        <StickerCircle/>
+        <StickerCircle circleText="---------See Our Menu---------"/>
       </div>
     </div>
   );
