@@ -8,7 +8,7 @@ const Banner = ({ heading, subHeading }) => {
     <>
       <div className="relative">
         <img src={image1} alt="Food banner" className="w-full object-cover" />
-        <div className="absolute inset-0 ">
+        <div className="absolute inset-0 flex flex-col justify-center items-center">
           <Container>
            <div className="text-white flex flex-col justify-center items-center text-center w-4/5 mx-auto gap-6">
            <h1 className="text-7xl font-cormorantGaramond">{heading}</h1>
