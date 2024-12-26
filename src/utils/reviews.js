@@ -1,6 +1,6 @@
 export const reviews = [
   {
-    id: 1,
+    id:"458=i_uyt",
     name: "John Doe",
     position: "CEO, Company",
     image: "https://cdn.dummyjson.com/recipe-images/13.webp",
@@ -9,7 +9,7 @@ export const reviews = [
     rating: 5,
   },
   {
-    id: 2,
+    id:"45+8i_uyt",
     name: "Jane Doe",
     position: "CEO, Company",
     image: "https://cdn.dummyjson.com/recipe-images/13.webp",
@@ -18,7 +18,7 @@ export const reviews = [
     rating: 4,
   },
   {
-    id: 3,
+    id:"45)8i_uyt",
     name: "John Doe",
     position: "CEO, Company",
     image: "https://cdn.dummyjson.com/recipe-images/13.webp",
@@ -27,7 +27,7 @@ export const reviews = [
     rating: 5,
   },
   {
-    id: 4,
+    id:"4w$58i_uyt",
     name: "Jane Doe",
     position: "CEO, Company",
     image: "https://cdn.dummyjson.com/recipe-images/13.webp",
@@ -36,7 +36,7 @@ export const reviews = [
     rating: 4,
   },
   {
-    id: 5,
+    id:"45$8i_uyt",
     name: "John Doe",
     position: "CEO, Company",
     image: "https://cdn.dummyjson.com/recipe-images/13.webp",
@@ -45,7 +45,7 @@ export const reviews = [
     rating: 5,
   },
   {
-    id: 6,
+    id:"458!i_uyt",
     name: "Jane Doe",
     position: "CEO, Company",
     image: "https://cdn.dummyjson.com/recipe-images/13.webp",
