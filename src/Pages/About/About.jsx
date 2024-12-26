@@ -1,6 +1,7 @@
 import AboutOurFood from "../../Components/AboutPage/AboutOurFood/AboutOurFood";
 import BestFoodMenu from "../../Components/AboutPage/BestFoodMenu/BestFoodMenu";
 import OurBestChefs from "../../Components/AboutPage/OurBestChefs/OurBestChefs";
+import OurFoodShowcase from "../../Components/AboutPage/OurFoodShowcase/OurFoodShowcase";
 import OurPopularFoods from "../../Components/AboutPage/OurPopularFoods/OurPopularFoods";
 import Banner from "../../Components/Shared/Banner/Banner";
 import Container from "../../Components/Shared/Container/Container";
@@ -28,6 +29,7 @@ const About = () => {
           </div>
         </div>
       </Container>
+      <OurFoodShowcase />
     </div>
   );
 };
