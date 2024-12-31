@@ -28,6 +28,39 @@ const OurFoodShowcase = () => {
             </h1>
           </div>
         </div>
+        <div className="w-full flex flex-col justify-center items-center gap-6 group relative">
+          <img src={image1} alt="bengali food" className="w-full" />
+          <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
+            <div className="bg-white p-2 rounded-full">
+              <FaSearch size={30} className="text-deep-orange" />
+            </div>
+            <h1 className="text-2xl font-bold font-cormorantGaramond text-white">
+              Italian Chicken Grilled
+            </h1>
+          </div>
+        </div>
+        <div className="w-full flex flex-col justify-center items-center gap-6 group relative">
+          <img src={image1} alt="bengali food" className="w-full" />
+          <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
+            <div className="bg-white p-2 rounded-full">
+              <FaSearch size={30} className="text-deep-orange" />
+            </div>
+            <h1 className="text-2xl font-bold font-cormorantGaramond text-white">
+              Italian Chicken Grilled
+            </h1>
+          </div>
+        </div>
+        <div className="w-full flex flex-col justify-center items-center gap-6 group relative">
+          <img src={image1} alt="bengali food" className="w-full" />
+          <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
+            <div className="bg-white p-2 rounded-full">
+              <FaSearch size={30} className="text-deep-orange" />
+            </div>
+            <h1 className="text-2xl font-bold font-cormorantGaramond text-white">
+              Italian Chicken Grilled
+            </h1>
+          </div>
+        </div>
       </div>
     </Container>
   );
