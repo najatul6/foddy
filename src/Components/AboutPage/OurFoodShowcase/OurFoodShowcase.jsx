@@ -39,7 +39,7 @@ const OurFoodShowcase = () => {
             </h1>
           </div>
         </div>
-        <div className="w-full flex flex-col justify-center items-center gap-6 group relative">
+        <div className="w-full flex flex-col justify-center items-center gap-6 group relative cursor-pointer">
           <img src={image3} alt="bengali food" className="w-full h-[300px]" />
           <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
@@ -50,7 +50,7 @@ const OurFoodShowcase = () => {
             </h1>
           </div>
         </div>
-        <div className="w-full flex flex-col justify-center items-center gap-6 group relative">
+        <div className="w-full flex flex-col justify-center items-center gap-6 group relative cursor-pointer">
           <img src={image4} alt="bengali food" className="w-full h-[300px]" />
           <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
