@@ -1,11 +1,13 @@
+import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 const Register = () => {
-    const {
-        register,
-        formState: { errors },
-        handleSubmit,
-      } = useForm();
-      const onSubmit = (data) => console.log(data);
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
   return (
     <div className="w-full mx-auto max-w-md space-y-6">
       <div className="text-center">
@@ -24,7 +26,11 @@ const Register = () => {
             {...register("email", { required: "Email Address is required" })}
             aria-invalid={errors.email ? "true" : "false"}
           />
-          {errors.email && <p role="alert" className="text-[#a20131] w-full text-right">{errors.email.message}</p>}
+          {errors.email && (
+            <p role="alert" className="text-[#a20131] w-full text-right">
+              {errors.email.message}
+            </p>
+          )}
         </div>
         <div className="flex flex-col justify-start items-start gap-1 w-full mt-3">
           <label className="text-lg capitalize font-medium " htmlFor="password">
@@ -36,7 +42,11 @@ const Register = () => {
             {...register("password", { required: "Password is required" })}
             aria-invalid={errors.password ? "true" : "false"}
           />
-          {errors.password && <p role="alert" className="text-[#a20131] text-right w-full">{errors.password.message}</p>}
+          {errors.password && (
+            <p role="alert" className="text-[#a20131] text-right w-full">
+              {errors.password.message}
+            </p>
+          )}
         </div>
 
         <input
@@ -44,7 +54,7 @@ const Register = () => {
           type="submit"
         />
       </form>
-      <hr className="w-2/3 mx-auto border-2 border-white rounded-full"/>
+      <hr className="w-2/3 mx-auto border-2 border-white rounded-full" />
       <div className="text-center">
         <p className="">
           Don&apos;t have an account?
@@ -57,7 +67,7 @@ const Register = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Register
+export default Register;
