@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="fixed top-0 left-0 w-full z-[999] py-[1.3rem] px-[2%] lg:py-1 lg:px-[2%] flex gap-1 lg:justify-between items-center before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:bg-deep-black  before:z-[-1] shadow-xl shadow-gradient-back text-white font-bold">
-      <div className="text-3xl font-bold lg:leading-[70px] cursor-pointer">
+      <div className="text-4xl  font-bold lg:leading-[70px] cursor-pointer">
         <a href="/" className="block">
         F<span className="text-deep-orange">odd</span>y
         </a>
