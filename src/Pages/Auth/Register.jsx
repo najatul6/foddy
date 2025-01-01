@@ -57,9 +57,9 @@ const Register = () => {
       <hr className="w-2/3 mx-auto border-2 border-white rounded-full" />
       <div className="text-center">
         <p className="">
-          Don&apos;t have an account?
+            Already have an account? Go to 
           <Link
-            to="/auth/register"
+            to="/auth/login"
             className="font-medium hover:text-deep-orange hover:underline ml-2"
           >
            Log in
