@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import deleveryImg from "../assets/food.gif"
 
 const AuthLayout = () => {
   return (
