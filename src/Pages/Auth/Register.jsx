@@ -64,22 +64,7 @@ const Register = () => {
             </p>
           )}
         </div>
-        <div className="flex flex-col justify-start items-start gap-1 w-full mt-3">
-          <label className="text-lg capitalize font-medium " htmlFor="confirmPassword">
-            Confirm Password
-          </label>
-          <input
-            className="w-full py-1 px-3 bg-transparent focus:outline-double outline-white border border-deep-orange text-deep-black placeholder:text-deep-black rounded-md"
-            placeholder="Renter your password"
-            {...register("confirmPassword", { required: "Password is required" })}
-            aria-invalid={errors.password ? "true" : "false"}
-          />
-          {errors.password && (
-            <p role="alert" className="text-[#a20131] text-right w-full">
-              {errors.password.message}
-            </p>
-          )}
-        </div>
+       
         <button
           className="w-full text-lg font-medium cursor-pointer py-2 px-2 md:px-6 uppercase hover:bg-transparent  bg-deep-orange border-deep-orange hover:text-deep-orange rounded-md text-white border-2 duration-300 tracking-[2.4px] flex justify-center items-center gap-1 mt-6"
           type="submit"
