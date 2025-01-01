@@ -15,7 +15,6 @@ const AuthLayout = () => {
       </div>
       <div className="flex-1 flex justify-center items-center bg-[#f2d9c5e1]">
         <Outlet />
-        
       </div>
     </div>
   );
