@@ -9,7 +9,9 @@ const AuthLayout = () => {
             <p className="text-gray-300">To keep connected with us please login with your personal info</p>
         </div>
         </div>
+        <div className="flex-1 flex justify-center items-center px-4 py-12 sm:px-6 lg:px-8">
         <Outlet />
+        </div>
     </div>
   )
 }
