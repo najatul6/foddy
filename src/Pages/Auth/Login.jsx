@@ -26,7 +26,7 @@ const Login = () => {
             {...register("email", { required: "Email Address is required" })}
             aria-invalid={errors.email ? "true" : "false"}
           />
-          {errors.mail && <p role="alert">{errors.mail.message}</p>}
+          {errors.email && <p role="alert" className="text-[#a20131] w-full text-right">{errors.email.message}</p>}
         </div>
         <div className="flex flex-col justify-start items-start gap-1 w-full mt-3">
           <label className="text-lg capitalize font-medium " htmlFor="password">
@@ -38,7 +38,7 @@ const Login = () => {
             {...register("password", { required: "Password is required" })}
             aria-invalid={errors.password ? "true" : "false"}
           />
-          {errors.password && <p role="alert">{errors.password.message}</p>}
+          {errors.password && <p role="alert" className="text-[#a20131] text-right w-full">{errors.password.message}</p>}
         </div>
 
         <input
@@ -46,6 +46,7 @@ const Login = () => {
           type="submit"
         />
       </form>
+      <hr />
       <div className="text-center">
         <p className="">
           Don&apos;t have an account?
