@@ -17,7 +17,7 @@ const Register = () => {
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col justify-start items-start gap-1 w-full">
-          <label className="text-lg capitalize font-medium " htmlFor="email">
+          <label className="text-lg capitalize font-medium " htmlFor="name">
             Full Name
           </label>
           <input
