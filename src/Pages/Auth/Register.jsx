@@ -60,9 +60,9 @@ const Register = () => {
           Don&apos;t have an account?
           <Link
             to="/auth/register"
-            className="font-medium text-primary hover:underline ml-2"
+            className="font-medium hover:text-deep-orange hover:underline ml-2"
           >
-            Create Account
+           Log in
           </Link>
         </p>
       </div>
