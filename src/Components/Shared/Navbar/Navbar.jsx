@@ -3,7 +3,7 @@ import { IoClose, IoMenu } from "react-icons/io5";
 import { routes } from "../../../utils/menu";
 import { FaArrowRight } from "react-icons/fa";
 import Button from "../Button/Button";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,7 +53,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="md:w-full md:mx-auto md:flex md:justify-center md:items-center lg:justify-between lg:w-auto lg:mx-0">
-      <Button text="Order Now" icon={<FaArrowRight />} withOutbg />
+      <Link to="/login"><Button text="Order Now" icon={<FaArrowRight />} withOutbg /></Link>
       </div>
     </header>
   );
