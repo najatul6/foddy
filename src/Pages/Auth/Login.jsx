@@ -41,10 +41,12 @@ const Login = () => {
           {errors.password && <p role="alert" className="text-[#a20131] text-right w-full">{errors.password.message}</p>}
         </div>
 
-        <input
-          className="w-full text-lg font-medium cursor-pointer py-2 px-2 md:px-6 uppercase hover:bg-transparent  bg-deep-orange border-deep-orange hover:text-deep-orange rounded-md text-white border-2  duration-300 tracking-[2.4px] flex justify-center items-center gap-1 mt-6"
+        <button
+          className="w-full text-lg font-medium cursor-pointer py-2 px-2 md:px-6 uppercase hover:bg-transparent  bg-deep-orange border-deep-orange hover:text-deep-orange rounded-md text-white border-2 duration-300 tracking-[2.4px] flex justify-center items-center gap-1 mt-6"
           type="submit"
-        />
+        >
+          Log in
+        </button>
       </form>
       <hr className="w-2/3 mx-auto border-2 border-white rounded-full"/>
       <div className="text-center">

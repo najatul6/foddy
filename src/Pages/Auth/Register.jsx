@@ -32,7 +32,7 @@ const Register = () => {
             </p>
           )}
         </div>
-        <div className="flex flex-col justify-start items-start gap-1 w-full">
+        <div className="flex flex-col justify-start items-start gap-1 w-full mt-3">
           <label className="text-lg capitalize font-medium " htmlFor="email">
             Email Address
           </label>
@@ -64,11 +64,12 @@ const Register = () => {
             </p>
           )}
         </div>
-
-        <input
+        <button
           className="w-full text-lg font-medium cursor-pointer py-2 px-2 md:px-6 uppercase hover:bg-transparent  bg-deep-orange border-deep-orange hover:text-deep-orange rounded-md text-white border-2 duration-300 tracking-[2.4px] flex justify-center items-center gap-1 mt-6"
           type="submit"
-        />
+        >
+          Create Account
+        </button>
       </form>
       <hr className="w-2/3 mx-auto border-2 border-white rounded-full" />
       <div className="text-center">
@@ -76,7 +77,7 @@ const Register = () => {
           Already have an account? Go to
           <Link
             to="/auth/login"
-            className="font-medium hover:text-deep-orange hover:underline ml-2"
+            className="font-bold hover:text-deep-orange hover:underline ml-2"
           >
             Log in
           </Link>
