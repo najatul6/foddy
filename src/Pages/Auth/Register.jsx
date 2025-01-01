@@ -1,5 +1,11 @@
 
 const Register = () => {
+    const {
+        register,
+        formState: { errors },
+        handleSubmit,
+      } = useForm();
+      const onSubmit = (data) => console.log(data);
   return (
     <div className="w-full mx-auto max-w-md space-y-6">
       <div className="text-center">
