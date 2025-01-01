@@ -12,10 +12,26 @@ const Register = () => {
     <div className="w-full mx-auto max-w-md space-y-6">
       <div className="text-center">
         <h1 className="text-3xl font-bold tracking-tight text-foreground">
-          Log in to your account
+            Create an account
         </h1>
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
+        <div className="flex flex-col justify-start items-start gap-1 w-full">
+          <label className="text-lg capitalize font-medium " htmlFor="email">
+            Full Name
+          </label>
+          <input
+            className="w-full py-1 px-3 bg-transparent focus:outline-double outline-white border border-deep-orange text-deep-black placeholder:text-deep-black rounded-md"
+            placeholder="Enter your full name"
+            {...register("name", { required: "Name is required" })}
+            aria-invalid={errors.name ? "true" : "false"}
+          />
+          {errors.name && (
+            <p role="alert" className="text-[#a20131] w-full text-right">
+              {errors.name.message}
+            </p>
+          )}
+        </div>
         <div className="flex flex-col justify-start items-start gap-1 w-full">
           <label className="text-lg capitalize font-medium " htmlFor="email">
             Email Address
