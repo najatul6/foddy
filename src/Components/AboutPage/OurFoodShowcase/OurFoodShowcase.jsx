@@ -18,7 +18,7 @@ const OurFoodShowcase = () => {
       </div>
       <div className="grid grid-cols-4 place-items-center gap-6 mt-10">
         <div className="w-full flex flex-col justify-center items-center gap-6 group relative cursor-pointer">
-          <img src={image1} alt="bengali food" className="w-full h-[30px]" />
+          <img src={image1} alt="bengali food" className="w-full h-[250px]" />
           <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
               <FaSearch size={30} className="text-deep-orange" />
@@ -29,7 +29,7 @@ const OurFoodShowcase = () => {
           </div>
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-6 group relative cursor-pointer">
-          <img src={image2} alt="bengali food" className="w-full h-[300px]" />
+          <img src={image2} alt="bengali food" className="w-full h-[250px]" />
           <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
               <FaSearch size={30} className="text-deep-orange" />
@@ -40,7 +40,7 @@ const OurFoodShowcase = () => {
           </div>
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-6 group relative cursor-pointer">
-          <img src={image3} alt="bengali food" className="w-full h-[300px]" />
+          <img src={image3} alt="bengali food" className="w-full h-[250px]" />
           <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
               <FaSearch size={30} className="text-deep-orange" />
@@ -51,7 +51,7 @@ const OurFoodShowcase = () => {
           </div>
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-6 group relative cursor-pointer">
-          <img src={image4} alt="bengali food" className="w-full h-[300px]" />
+          <img src={image4} alt="bengali food" className="w-full h-[250px]" />
           <div className="absolute flex-col  hidden group-hover:flex duration-300 transition-all justify-center items-center border-2 border-white border-dashed w-11/12 h-5/6">
             <div className="bg-white p-2 rounded-full">
               <FaSearch size={30} className="text-deep-orange" />
