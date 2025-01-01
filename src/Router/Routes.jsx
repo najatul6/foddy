@@ -3,6 +3,7 @@ import MainLayout from "../Layout/MainLayout"
 import Home from "../Pages/Home/Home"
 import About from "../Pages/About/About"
 import Contact from "../Pages/Contact/Contact"
+import AuthLayout from "../Layout/AuthLayout"
 
 
 const Routes = createBrowserRouter([
@@ -22,6 +23,16 @@ const Routes = createBrowserRouter([
                 path: "contact",
                 element:<Contact/>
             },
+        ]
+    },
+    {
+        path:"/auth",
+        element:<AuthLayout/>,
+        children:[
+            {
+                path:"login",
+                element:<Login/>
+            }
         ]
     }
 ])
