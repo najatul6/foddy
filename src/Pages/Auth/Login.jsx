@@ -46,7 +46,7 @@ const Login = () => {
           type="submit"
         />
       </form>
-      <hr />
+      <hr className="w-2/3 mx-auto border-2 border-white rounded-full"/>
       <div className="text-center">
         <p className="">
           Don&apos;t have an account?
