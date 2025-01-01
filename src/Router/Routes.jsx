@@ -4,6 +4,8 @@ import Home from "../Pages/Home/Home"
 import About from "../Pages/About/About"
 import Contact from "../Pages/Contact/Contact"
 import AuthLayout from "../Layout/AuthLayout"
+import Login from "../Pages/Auth/Login"
+import Register from "../Pages/Auth/Register"
 
 
 const Routes = createBrowserRouter([

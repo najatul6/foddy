@@ -53,7 +53,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="md:w-full md:mx-auto md:flex md:justify-center md:items-center lg:justify-between lg:w-auto lg:mx-0">
-      <Link to="/login"><Button text="Order Now" icon={<FaArrowRight />} withOutbg /></Link>
+      <Link to="/auth/login"><Button text="Order Now" icon={<FaArrowRight />} withOutbg /></Link>
       </div>
     </header>
   );
