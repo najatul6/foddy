@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const {
@@ -15,7 +16,6 @@ const Login = () => {
         </h1>
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h1 className="text-4xl font-bold text-center mb-5">Log in</h1>
         <div className="flex flex-col justify-start items-start gap-1 w-full">
           <label className="text-lg capitalize font-medium " htmlFor="email">
             Email Address
@@ -46,6 +46,17 @@ const Login = () => {
           type="submit"
         />
       </form>
+      <div className="text-center">
+        <p className="">
+          Don&apos;t have an account?
+          <Link
+            to="/auth/register"
+            className="font-medium text-primary hover:underline ml-2"
+          >
+            Create Account
+          </Link>
+        </p>
+      </div>
     </div>
   );
 };
