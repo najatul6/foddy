@@ -13,7 +13,9 @@ const Login = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <h1 className="text-4xl font-bold text-center mb-5">Log in</h1>
           <div className="flex flex-col justify-start items-start gap-1 w-full">
-            <label className="text-lg capitalize font-medium " htmlFor="email">Email Address</label>
+            <label className="text-lg capitalize font-medium " htmlFor="email">
+              Email Address
+            </label>
             <input
               className="w-full py-1 px-3 bg-transparent focus:outline-double outline-white border border-deep-orange text-deep-black placeholder:text-deep-black rounded-md"
               placeholder="Enter your email address"
@@ -23,7 +25,12 @@ const Login = () => {
             {errors.mail && <p role="alert">{errors.mail.message}</p>}
           </div>
           <div className="flex flex-col justify-start items-start gap-1 w-full mt-3">
-            <label className="text-lg capitalize font-medium " htmlFor="password">Password</label>
+            <label
+              className="text-lg capitalize font-medium "
+              htmlFor="password"
+            >
+              Password
+            </label>
             <input
               className="w-full py-1 px-3 bg-transparent focus:outline-double outline-white border border-deep-orange text-deep-black placeholder:text-deep-black rounded-md"
               placeholder="Enter your password"
@@ -33,10 +40,12 @@ const Login = () => {
             {errors.password && <p role="alert">{errors.password.message}</p>}
           </div>
 
-          <input className="w-full text-lg font-bold cursor-pointer py-2 px-2 md:px-6 uppercase bg-transparent  hover:bg-deep-orange border-deep-orange text-deep-orange rounded-md hover:text-white border  duration-300  font-cormorantGaramond flex justify-center items-center gap-1 mt-6" type="submit" />
+          <input
+            className="w-full text-lg font-bold cursor-pointer py-2 px-2 md:px-6 uppercase bg-transparent  hover:bg-deep-orange border-deep-orange text-deep-orange rounded-md hover:text-white border  duration-300  font-cormorantGaramond flex justify-center items-center gap-1 mt-6"
+            type="submit"
+          />
         </form>
       </div>
-      
     </div>
   );
 };

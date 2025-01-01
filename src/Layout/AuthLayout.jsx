@@ -13,7 +13,7 @@ const AuthLayout = () => {
           <img src={deliveryImg} alt="" className="h-full"/>
         </div>
       </div>
-      <div className="flex-1 flex justify-center items-center bg-[#f2d9c5e1]">
+      <div className="flex flex-1 items-center justify-center px-4 py-12 sm:px-6 lg:px-8 bg-[#f2d9c5e1]">
         <Outlet />
       </div>
     </div>
