@@ -63,7 +63,9 @@ const OurFoodShowcase = () => {
           </div>
         </div>
       </div>
-      <Button text="BOOK A TABLE" icon={<FaArrowRight/>} withBg  />
+      <div className="flex justify-center items-center mt-10">
+        <Button text="BOOK A TABLE" icon={<FaArrowRight />} withBg />
+      </div>
     </Container>
   );
 };
