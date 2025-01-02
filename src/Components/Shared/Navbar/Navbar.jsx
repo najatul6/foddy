@@ -23,7 +23,7 @@ const Navbar = () => {
       </label>
       <nav
         className={`${
-          isOpen ? "h-[17 rem]" : " h-0 overflow-hidden "
+          isOpen ? "h-[17 rem]" : "h-0 overflow-hidden "
         } top-full  absolute left-0 w-full bg-deep-black backdrop-blur-2xl shadow-2xl shadow-gradient-back transition-all duration-500 lg:h-auto lg:static lg:w-auto lg:bg-inherit lg:backdrop-blur-0 lg:shadow-none delay-700 lg:delay-0`}
       >
         <ul className="flex flex-col lg:flex-row justify-between items-center gap-6 px-5 py-5 md:py-2 lg:py-0">
