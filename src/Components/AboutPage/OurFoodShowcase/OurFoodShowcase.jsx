@@ -5,6 +5,7 @@ import image2 from "../../../assets/resources/Rectangle 661.png";
 import image3 from "../../../assets/resources/Rectangle 660.png";
 import image4 from "../../../assets/resources/Rectangle 663.png";
 import { FaSearch } from "react-icons/fa";
+import Button from "../../Shared/Button/Button";
 
 const OurFoodShowcase = () => {
   return (
@@ -62,6 +63,7 @@ const OurFoodShowcase = () => {
           </div>
         </div>
       </div>
+      <Button text="View All" />
     </Container>
   );
 };
