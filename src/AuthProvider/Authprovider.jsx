@@ -6,23 +6,23 @@ import { auth } from "../firebase";
 
 export const AuthContext = createContext(null);
 const AuthProvider = ({ children }) => {
-    const [user,setUser] = useState(null);
-    const [loading,setLoading] = useState(false);
+    const [user, setUser] = useState(null);
+    const [loading, setLoading] = useState(false);
 
-    useEffect(()=>{
-        const unsubscribe=onAuthStateChanged(auth,async(currentUser)=>{
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
             setUser(currentUser);
             setLoading(false);
         })
-        return ()=>{
+        return () => {
             unsubscribe();
         }
-    },[]);
+    }, []);
 
-const authInfo={
-    user,
-    loading,
-}
+    const authInfo = {
+        user,
+        loading,
+    }
     return (
         <AuthContext.Provider value={authInfo}>
             {children}
