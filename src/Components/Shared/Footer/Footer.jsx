@@ -89,7 +89,7 @@ const Footer = () => {
             <p>
               Developed By -{" "}
               <Link
-                to="https://www.najatulislam.me/"
+                to="https://najatul-islam.vercel.app/"
                 target="_blank"
                 className="text-deep-orange underline"
               >
