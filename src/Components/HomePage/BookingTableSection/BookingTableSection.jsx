@@ -8,7 +8,6 @@ import Button from "../../Shared/Button/Button";
 const BookingTableSection = () => {
   return (
     <div className="relative">
-      {/* মোবাইলে কন্টেন্টগুলো নিচে নিচে আসলে হাইট বেড়ে যাবে, তাই ইমেজটি যেন ছোট না হয়ে যায় সেজন্য মোবাইলে h-[600px] এবং বড় স্ক্রিনে h-auto দেওয়া হয়েছে */}
       <img
         src={Rectangle686}
         alt="food background banner"
@@ -16,7 +15,6 @@ const BookingTableSection = () => {
       />
       
       <div className="absolute top-0 bg-opacity-80 flex items-center justify-center w-full h-full bg-deep-black z-[100]">
-        {/* মোবাইলের জন্য সামান্য প্যাডিং (px-4) যুক্ত করা হয়েছে */}
         <div className="text-center w-full px-4 md:px-0">
           <Container>
             <SectionHeader
@@ -24,13 +22,11 @@ const BookingTableSection = () => {
               subHeading="Booking Table"
             />
 
-            {/* w-2/3 মোবাইলে অনেক চিপা হয়ে যেতো, তাই মোবাইলে w-full এবং ডেক্সটপে md:w-2/3 দেওয়া হয়েছে */}
             <p className="text-center w-full md:w-2/3 mx-auto opacity-[0.6] mt-4 md:mt-0">
               To make a reservation at our restaurant, simply call our booking
               hotline or visit our website
             </p>
             
-            {/* ইনপুট ফিল্ডগুলো মোবাইলে নিচে নিচে (flex-col) এবং বড় স্ক্রিনে পাশাপাশি (md:flex-row) করার জন্য ক্লাস আপডেট করা হয়েছে */}
             <div className="w-full flex flex-col md:flex-row gap-4 md:gap-6 justify-center items-center mt-8 md:mt-10">
               
               {/* Reserve Date  */}
