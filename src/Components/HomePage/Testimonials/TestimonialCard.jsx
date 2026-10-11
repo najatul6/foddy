@@ -17,14 +17,14 @@ const TestimonialCard = ({ review }) => {
       </div>
 
       {/* Content Section */}
-      <div className="w-1/2 p-12 text-white">
+      <div className="w-2/3 md:w-1/2 p-12 text-white">
         <Rating style={{ maxWidth: 120 }} value={rating} readOnly />
         <p className="mt-6 text-2xl italic font-cormorantGaramond tracking-wide">
           &ldquo;{reviewText}&rdquo;
         </p>
         <div className="mt-8">
-          <h3 className="text-4xl font-bold">{name}</h3>
-          <p className="text-lg font-medium">{position}</p>
+          <h3 className="text-4xl font-bold text-wrap">{name}</h3>
+          <p className="text-lg font-medium text-wrap">{position}</p>
         </div>
       </div>
     </div>
