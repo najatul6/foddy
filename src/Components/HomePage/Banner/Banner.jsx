@@ -41,7 +41,7 @@ const Banner = () => {
         </div>
 
         {/* Coffee cup & Sticker */}
-        <div className="absolute bottom-0 right-0 z-0">
+        <div className="absolute bottom-14 md:bottom-0 left-0 md:right-0 z-0">
           <img src={coffee} alt="Coffee Cup" className="w-[120px] md:w-[180px] lg:w-auto" />
           <div className="absolute -top-[4rem] -left-[3rem] md:-top-[6rem] md:-left-[5rem] lg:-top-[10rem] lg:-left-[8rem] scale-[0.6] md:scale-75 lg:scale-100">
             <StickerCircle circleText={"Best Restuarant Template by - Najatul islam ·"} />
