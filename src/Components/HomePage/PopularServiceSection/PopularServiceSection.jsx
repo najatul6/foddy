@@ -1,4 +1,3 @@
-import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import icon1 from "../../../assets/Icons/fi_1609988.png";
 import icon2 from "../../../assets/Icons/fi_9876646.png";
@@ -9,7 +8,6 @@ import { FaArrowRight } from "react-icons/fa";
 const PopularServiceSection = () => {
   return (
     <div className="bg-white bg-opacity-[0.05] py-16 md:py-[120px]">
-      <Container>
         <div className="flex flex-col gap-10 md:gap-12">
           
           {/* Header Section: মোবাইলে নিচে নিচে (flex-col) এবং ডেক্সটপে পাশাপাশি (md:flex-row) */}
@@ -96,7 +94,6 @@ const PopularServiceSection = () => {
 
           </div>
         </div>
-      </Container>
     </div>
   );
 };
