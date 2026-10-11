@@ -1,4 +1,3 @@
-import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import leftSideImg from "../../../assets/resources/Rectangle 692.png";
 import rightSideImg from "../../../assets/resources/Rectangle 693.png";
@@ -10,7 +9,7 @@ import { FaArrowRight } from "react-icons/fa";
 const TestyMenuSection = () => {
   const yummyMenu = recipes?.slice(0, 4);
   return (
-    <Container>
+    <>
       {/* Section Header: মোবাইলে ফুল উইডথ এবং ডেক্সটপে ১/৩ অংশ করা হয়েছে। সাথে নিচে মার্জিন (mb-8) যোগ করা হয়েছে। */}
       <div className="w-full md:w-2/3 lg:w-1/3 mx-auto text-center mb-8 md:mb-12">
         <SectionHeader
@@ -53,7 +52,7 @@ const TestyMenuSection = () => {
       <div className="flex justify-center items-center">
         <Button text="About More" icon={<FaArrowRight />} withBg />
       </div>
-    </Container>
+    </>
   );
 };
 
