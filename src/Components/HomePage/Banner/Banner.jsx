@@ -3,27 +3,34 @@ import coffee from "../../../assets/resources/coffee.png";
 import { FaArrowRight } from "react-icons/fa";
 import StickerCircle from "../../Shared/StickerCircle/StickerCircle";
 import Button from "../../Shared/Button/Button";
+
 const Banner = () => {
   return (
-    <div className="flex flex-col lg:flex-row relative justify-center items-center w-full h-[800px] pt-20">
-      <div className="max-w-3/5 h-full overflow-hidden">
+    <div className="flex flex-col lg:flex-row relative justify-center items-center w-full h-auto lg:h-[800px] pt-20 lg:pt-20">
+      {/* Left Image Section */}
+      <div className="w-full lg:w-[60%] h-[400px] md:h-[500px] lg:h-full overflow-hidden">
         <img
           src={handcook}
           alt="Cooking prepare photo"
-          className="w-full h-full"
+          className="w-full h-full object-cover lg:object-fill"
         />
       </div>
-      <div className="w-full h-full bg-deep-black relative">
-        <h1 className="text-[50px] lg:text-[70px] px-4 uppercase font-bold font-cormorantGaramond">
-          ReserveD Your <br /> Table Today
+
+      {/* Right Black Section */}
+      <div className="w-full lg:w-[40%] h-[500px] md:h-[600px] lg:h-full bg-deep-black relative flex flex-col items-center lg:items-start justify-center lg:justify-start overflow-hidden lg:overflow-visible">
+        <h1 className="text-[40px] md:text-[50px] lg:text-[70px] px-4 pt-0 lg:pt-20 uppercase font-bold font-cormorantGaramond text-center lg:text-left z-10">
+          ReserveD Your <br className="hidden md:block" /> Table Today
         </h1>
-        <div className="absolute bottom-16 left-10">
+        
+        {/* Background SVG */}
+        <div className="absolute bottom-10 lg:bottom-16 left-0 lg:left-10 w-[150%] md:w-[120%] lg:w-auto opacity-30 lg:opacity-100 pointer-events-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="549"
             height="274"
             viewBox="0 0 549 274"
             fill="none"
+            className="w-full h-auto lg:w-[549px]"
           >
             <path
               opacity="0.3"
@@ -32,15 +39,21 @@ const Banner = () => {
             />
           </svg>
         </div>
-        <div className="absolute bottom-0 right-0">
-          <img src={coffee} alt="Coffee Cup" className="" />
-          <div className="absolute -top-[10rem] -left-[8rem]" >
+
+        {/* Coffee cup & Sticker */}
+        <div className="absolute bottom-0 right-0 z-0">
+          <img src={coffee} alt="Coffee Cup" className="w-[120px] md:w-[180px] lg:w-auto" />
+          <div className="absolute -top-[4rem] -left-[3rem] md:-top-[6rem] md:-left-[5rem] lg:-top-[10rem] lg:-left-[8rem] scale-[0.6] md:scale-75 lg:scale-100">
             <StickerCircle circleText={"Best Restuarant Template by - Najatul islam ·"} />
           </div>
         </div>
       </div>
-      <div className="max-w-[450px] h-[250px] flex justify-center flex-col items-start gap-4 px-4 top-[50%] absolute left-[20%] bg-deep-black">
-        <h3 className="md:text-4xl text-wrap font-cormorantGaramond capitalize">celebration of flavors  from around the world crafted. </h3>
+
+      {/* Center Floating Box */}
+      <div className="w-[90%] md:w-[70%] lg:max-w-[450px] min-h-[200px] lg:h-[250px] py-8 lg:py-0 flex justify-center flex-col items-center lg:items-start text-center lg:text-left gap-4 px-6 lg:px-4 absolute top-1/2 lg:top-[50%] left-1/2 lg:left-[20%] -translate-x-1/2 lg:translate-x-0 -translate-y-1/2 bg-deep-black shadow-2xl lg:shadow-none z-20">
+        <h3 className="text-2xl md:text-4xl text-wrap font-cormorantGaramond capitalize">
+          celebration of flavors from around the world crafted. 
+        </h3>
         <a 
           href="https://www.profitableratecpmnetwork.com/nmdtdest9?key=470c0f66ceecae98f1df443a7723aabb" 
           target="_blank" 
