@@ -1,9 +1,12 @@
 import Rectangle675 from "../../../assets/resources/Rectangle 675.png";
 import Rectangle674 from "../../../assets/resources/Rectangle 674.png";
+import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 
 const IncrementsSection = () => {
   return (
+    <Container>
+      {/* মোবাইলে ওভারল্যাপ (overlap) এড়ানোর জন্য -space-y-48 শুধু ডেক্সটপে (md:) দেওয়া হয়েছে এবং মোবাইলে gap-10 দেওয়া হয়েছে */}
       <div className="flex flex-col gap-10 md:gap-0 md:block md:-space-y-48">
         
         {/* box 1 */}
@@ -58,6 +61,7 @@ const IncrementsSection = () => {
           <img src={Rectangle674} alt="Coffee image" className="w-full md:w-auto object-cover" />
         </div>
       </div>
+    </Container>
   );
 };
 
