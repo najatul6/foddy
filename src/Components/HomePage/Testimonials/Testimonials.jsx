@@ -10,7 +10,6 @@ import { reviews } from "../../../utils/reviews";
 const Testimonials = () => {
   return (
     <div className="py-10 md:py-[30px] bg-deep-orange">
-      <Container>
         {/* w-1/3 এর পরিবর্তে w-full md:w-2/3 lg:w-1/3 দেওয়া হয়েছে যাতে মোবাইলে লেখাগুলো চেপে না যায় */}
         <div className="w-full md:w-2/3 lg:w-1/3 mx-auto text-center px-4 md:px-0">
           <SectionHeader
@@ -35,7 +34,6 @@ const Testimonials = () => {
             ))}
           </Swiper>
         </div>
-      </Container>
     </div>
   );
 };
