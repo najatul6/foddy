@@ -1,4 +1,3 @@
-import Container from "../../Shared/Container/Container";
 import award1 from "../../../assets/Icons/image 70.png"
 import award2 from "../../../assets/Icons/image 71.png"
 import award3 from "../../../assets/Icons/image 72.png"
