@@ -1,3 +1,4 @@
+import Container from "../../Shared/Container/Container"
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,7 +14,7 @@ import ChefCard from "./ChefCard";
 
 const OurBestChefSection = () => {
   return (
-        <>
+        <Container>
             {/* w-1/3 এর পরিবর্তে w-full md:w-2/3 lg:w-1/3 ব্যবহার করা হয়েছে যাতে মোবাইলে লেখাগুলো সুন্দরভাবে দেখা যায় */}
             <div className="w-full md:w-2/3 lg:w-1/3 mx-auto text-center px-4 md:px-0">
                 <SectionHeader heading={"Meet Our Exclusive Kitchen Teams"} subHeading={"OUR best chef’s"}/>
@@ -59,7 +60,7 @@ const OurBestChefSection = () => {
                     })}
                 </Swiper>
             </div>
-        </>
+        </Container>
   )
 }
 
