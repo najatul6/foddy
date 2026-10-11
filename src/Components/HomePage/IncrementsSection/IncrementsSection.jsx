@@ -1,10 +1,9 @@
 import Rectangle675 from "../../../assets/resources/Rectangle 675.png";
 import Rectangle674 from "../../../assets/resources/Rectangle 674.png";
-import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 const IncrementsSection = () => {
   return (
-    <Container>
+    <>
       <div className="-space-y-48">
         {/* box 1 */}
         <div className="grid md:grid-cols-2">
@@ -47,7 +46,7 @@ const IncrementsSection = () => {
           <img src={Rectangle674} alt="Coffee image" className="" />
         </div>
       </div>
-    </Container>
+    </>
   );
 };
 
