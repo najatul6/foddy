@@ -18,7 +18,7 @@ const LatestBlogSection = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-6 mt-8 md:mt-10">
             
-            {/* card 1 */}
+            {/* card No 1 */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center w-full">
               <img
                 src={image}
