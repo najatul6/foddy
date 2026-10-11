@@ -13,7 +13,7 @@ import Rectangle680 from "../../../assets/resources/Rectangle 680.png";
 const FindRestaurant = () => {
   return (
     <Container>
-      <div className="grid grid-cols-2 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
         <div>
           <SectionHeader
             subHeading="find restaurant"

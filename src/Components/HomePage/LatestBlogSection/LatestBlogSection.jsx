@@ -15,7 +15,7 @@ const LatestBlogSection = () => {
               subHeading="Latest Blog"
             />
           </div>
-          <div className="grid grid-cols-2 gap-6 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             {/* card 1 */}
             <div className="flex gap-6 justify-center items-center">
               <img

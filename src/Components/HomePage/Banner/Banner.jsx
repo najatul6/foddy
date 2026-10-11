@@ -5,8 +5,8 @@ import StickerCircle from "../../Shared/StickerCircle/StickerCircle";
 import Button from "../../Shared/Button/Button";
 const Banner = () => {
   return (
-    <div className="flex relative justify-center items-center w-full h-[800px] pt-20">
-      <div className="w-3/5 h-full overflow-hidden">
+    <div className="flex flex-col lg:flex-row relative justify-center items-center w-full h-[800px] pt-20">
+      <div className="max-w-3/5 h-full overflow-hidden">
         <img
           src={handcook}
           alt="Cooking prepare photo"
@@ -39,8 +39,8 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="w-[450px] h-[250px] flex justify-center flex-col items-start gap-4 px-4 top-[50%] absolute left-[20%] bg-deep-black">
-        <h3 className="text-4xl font-cormorantGaramond capitalize">celebration of flavors  from around the world crafted. </h3>
+      <div className="max-w-[450px] h-[250px] flex justify-center flex-col items-start gap-4 px-4 top-[50%] absolute left-[20%] bg-deep-black">
+        <h3 className="md:text-4xl text-wrap font-cormorantGaramond capitalize">celebration of flavors  from around the world crafted. </h3>
         {/* <a 
           href="https://www.profitableratecpmnetwork.com/nmdtdest9?key=470c0f66ceecae98f1df443a7723aabb" 
           target="_blank" 

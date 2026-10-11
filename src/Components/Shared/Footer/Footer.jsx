@@ -5,35 +5,35 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="border-t-[0.3px] mt-[20px] bg-deep-black pt-[60px] text-white">
-      <Container>
         <div className="px-4">
-          <div className="flex justify-center items-center gap-14">
-            <h1 className="text-5xl font-cormorantGaramond font-bold text-white">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-14">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-cormorantGaramond font-bold text-white text-center lg:text-left">
               Subscribe For Daily Update
             </h1>
-            <div className="flex justify-center items-center">
+            <div className="flex flex-col sm:flex-row justify-center items-center w-full sm:w-auto gap-3 sm:gap-0">
               <input
                 type="email"
                 name="email"
                 id=""
                 placeholder="Enter email address"
-                className="bg-[#3C3C3C] bg-opacity-[0.51] px-5 py-2 placeholder:opacity-[0.5] text-2xl text-white focus:outline-none"
+                className="bg-[#3C3C3C] bg-opacity-[0.51] px-5 py-2 placeholder:opacity-[0.5] text-xl md:text-2xl text-white focus:outline-none w-full sm:w-auto"
               />
-              <button className="bg-deep-orange px-5 py-2 font-cormorantGaramond font-medium text-white text-2xl">
+              <button className="bg-deep-orange px-5 py-2 font-cormorantGaramond font-medium text-white text-xl md:text-2xl w-full sm:w-auto whitespace-nowrap">
                 Subscribe Now
               </button>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-4 mt-10">
-            <div className="space-y-5">
-              <h5 className="text-5xl font-medium ">
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-4 mt-14 lg:mt-10">
+            <div className="space-y-5 text-center md:text-left flex flex-col items-center md:items-start">
+              <h5 className="text-4xl md:text-5xl font-medium">
                 F<span className="text-deep-orange">odd</span>y
               </h5>
-              <p className="text-lg  tracking-[0.5px]">
+              <p className="text-base md:text-lg tracking-[0.5px]">
                 Our menu is a celebration of flavors from around the world,
                 crafted with care and creativity by our talented.
               </p>
-              <div className="flex justify-start items-center gap-[30px] cursor-pointer duration-300">
+              <div className="flex justify-center md:justify-start items-center gap-[30px] cursor-pointer duration-300">
                 <div className="hover:text-deep-orange text-2xl font-bold">
                   <FaFacebook />
                 </div>
@@ -48,11 +48,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="space-y-6">
-              <h6 className="text-3xl font-bold font-cormorantGaramond">
+            
+            <div className="space-y-6 text-center md:text-left flex flex-col items-center md:items-start">
+              <h6 className="text-2xl md:text-3xl font-bold font-cormorantGaramond">
                 Quick Links
               </h6>
-              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond opacity-[0.8]">
+              <div className="flex flex-col justify-center items-center md:items-start gap-4 md:gap-5 text-xl md:text-2xl font-medium font-cormorantGaramond opacity-[0.8]">
                 <Link>Home</Link>
                 <Link>Our Menu</Link>
                 <Link>Reservation</Link>
@@ -60,11 +61,12 @@ const Footer = () => {
                 <Link>Chef&rsquo;s Details</Link>
               </div>
             </div>
-            <div className="space-y-6">
-              <h6 className="text-3xl font-bold font-cormorantGaramond">
+            
+            <div className="space-y-6 text-center md:text-left flex flex-col items-center md:items-start">
+              <h6 className="text-2xl md:text-3xl font-bold font-cormorantGaramond">
                 Food Menu
               </h6>
-              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond  opacity-[0.8]">
+              <div className="flex flex-col justify-center items-center md:items-start gap-4 md:gap-5 text-xl md:text-2xl font-medium font-cormorantGaramond opacity-[0.8]">
                 <Link>Fast-food</Link>
                 <Link>Italian Food</Link>
                 <Link>Thai Food</Link>
@@ -72,33 +74,35 @@ const Footer = () => {
                 <Link>Chef&rsquo;s Details</Link>
               </div>
             </div>
-            <div className="space-y-6 ">
-              <h6 className="text-3xl font-bold font-cormorantGaramond">
+            
+            <div className="space-y-6 text-center md:text-left flex flex-col items-center md:items-start">
+              <h6 className="text-2xl md:text-3xl font-bold font-cormorantGaramond">
                 Contact Us
               </h6>
-              <div className="flex flex-col justify-center items-start gap-5 text-2xl font-medium font-cormorantGaramond  w-full break-words opacity-[0.8]">
+              <div className="flex flex-col justify-center items-center md:items-start gap-4 md:gap-5 text-xl md:text-2xl font-medium font-cormorantGaramond w-full break-words opacity-[0.8]">
                 <p>Merin City Tower, Albert St, New York, USA</p>
                 <p>+880 177 382 7414</p>
                 <p className="break-all">mdnajatulislam.develop@gmail.com</p>
               </div>
             </div>
           </div>
-          <hr className="border-[0.3px] border-white my-5" />
-          <div className="text-2xl font-medium font-cormorantGaramond flex justify-between items-center px-2 pb-4">
+          
+          <hr className="border-[0.3px] border-white my-8 md:my-5" />
+          
+          <div className="text-xl md:text-2xl font-medium font-cormorantGaramond flex flex-col md:flex-row justify-between items-center px-2 pb-6 md:pb-4 gap-4 md:gap-0 text-center md:text-left">
             <p>Copyright &copy;foody 2024 | All Right Reserved</p>
             <p>
               Developed By -{" "}
               <Link
                 to="https://najatul-islam.vercel.app/"
                 target="_blank"
-                className="text-deep-orange underline"
+                className="text-deep-orange underline whitespace-nowrap"
               >
                 Najatul Islam
               </Link>
             </p>
           </div>
         </div>
-      </Container>
     </div>
   );
 };

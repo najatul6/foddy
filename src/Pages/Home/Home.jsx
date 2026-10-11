@@ -13,7 +13,7 @@ import LatestBlogSection from "../../Components/HomePage/LatestBlogSection/Lates
 const Home = () => {
   return (
     <div className="text-white space-y-[120px]">
-        <Banner/>
+        {/* <Banner/>
         <AboutOurFoodSection />
         <FindRestaurant />
         <Award/>
@@ -23,7 +23,7 @@ const Home = () => {
         <Testimonials/>
         <IncrementsSection/>
         <BookingTableSection/>
-        <LatestBlogSection/>
+        <LatestBlogSection/> */}
     </div>
   )
 }

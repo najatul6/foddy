@@ -7,7 +7,7 @@ const IncrementsSection = () => {
     <Container>
       <div className="-space-y-48">
         {/* box 1 */}
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <img src={Rectangle675} alt={"Shape Picture"} className="z-[100]" />
           <div>
             <SectionHeader
@@ -17,7 +17,7 @@ const IncrementsSection = () => {
             <p className="font-cormorantGaramond text-3xl font-bold mt-10">
               * How to Process Special a Cup of Coffee
             </p>
-            <div className="flex justify-start items-center gap-10 mt-10">
+            <div className="flex flex-col md:flex-row justify-start items-center gap-10 mt-10">
               <ul className="flex flex-col gap-[30px] list-disc pl-8 border-l-4 border-deep-orange text-2xl font-cormorantGaramond font-medium ">
                 <li>Select Your Coffee Beans</li>
                 <li>Grind Your Coffee Beans</li>
@@ -38,7 +38,7 @@ const IncrementsSection = () => {
           </div>
         </div>
         {/* box 2  */}
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center">
           <p className="text-2xl  capitalize w-2/3 mt-auto p-4 text-justify ">
             Indulge in the comforting warmth and invigorating aroma that only a
             perfect cup of coffee can bring. At Bouffe, we believe in making
