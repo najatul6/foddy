@@ -1,3 +1,4 @@
+import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import image from "../../../assets/resources/Rectangle 655.png";
 import Button from "../../Shared/Button/Button";
@@ -6,6 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 const LatestBlogSection = () => {
   return (
     <div className="py-12 md:py-24">
+      <Container>
         <div>
           {/* w-1/2 মোবাইলে খুব চিপা হয়ে যেতো, তাই w-full md:w-3/4 lg:w-1/2 দেওয়া হয়েছে */}
           <div className="w-full md:w-3/4 lg:w-1/2 mx-auto text-center px-4 md:px-0">
@@ -92,6 +94,7 @@ const LatestBlogSection = () => {
             <Button text="View All Blogs" icon={<FaArrowRight />} withBg />
           </div>
         </div>
+      </Container>
     </div>
   );
 };
