@@ -1,3 +1,4 @@
+import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import icon1 from "../../../assets/Icons/fi_1609988.png";
 import icon2 from "../../../assets/Icons/fi_9876646.png";
@@ -8,9 +9,10 @@ import { FaArrowRight } from "react-icons/fa";
 const PopularServiceSection = () => {
   return (
     <div className="bg-white bg-opacity-[0.05] py-16 md:py-[120px]">
+      <Container>
         <div className="flex flex-col gap-10 md:gap-12">
           
-          {/* Header Section: মোবাইলে নিচে নিচে (flex-col) এবং ডেক্সটপে পাশাপাশি (md:flex-row) */}
+          {/* Header Section */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-10">
             <div className="w-full md:w-1/2">
               <SectionHeader
@@ -25,7 +27,7 @@ const PopularServiceSection = () => {
             </p>
           </div>
 
-          {/* Cards Section: Flex এর বদলে Grid ব্যবহার করা হয়েছে যাতে মোবাইলে ১টি, ট্যাবলেটে ২টি এবং ডেক্সটপে ৪টি কার্ড দেখায় */}
+          {/* Cards Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center">
             
             {/* Card 1 */}
@@ -94,6 +96,7 @@ const PopularServiceSection = () => {
 
           </div>
         </div>
+      </Container>
     </div>
   );
 };
