@@ -6,14 +6,11 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import Button from "../../Shared/Button/Button";
-import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import Rectangle680 from "../../../assets/resources/Rectangle 680.png";
 
 const FindRestaurant = () => {
   return (
-    <Container>
-      {/* Added gap-10 md:gap-16 to create space between text and image on mobile */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
         
         {/* Added text-center on mobile and text-left on md devices */}
@@ -64,7 +61,6 @@ const FindRestaurant = () => {
         </div>
         
       </div>
-    </Container>
   );
 };
 
