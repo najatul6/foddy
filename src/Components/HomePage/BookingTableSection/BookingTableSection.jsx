@@ -1,6 +1,5 @@
 import { FaArrowRight, FaCalendarAlt, FaClock } from "react-icons/fa";
 import Rectangle686 from "../../../assets/resources/Rectangle 686.png";
-import Container from "../../Shared/Container/Container";
 import SectionHeader from "../../Shared/SectionHeader/SectionHeader";
 import { FaPerson } from "react-icons/fa6";
 import Button from "../../Shared/Button/Button";
@@ -18,7 +17,6 @@ const BookingTableSection = () => {
       <div className="absolute top-0 bg-opacity-80 flex items-center justify-center w-full h-full bg-deep-black z-[100]">
         {/* মোবাইলের জন্য সামান্য প্যাডিং (px-4) যুক্ত করা হয়েছে */}
         <div className="text-center w-full px-4 md:px-0">
-          <Container>
             <SectionHeader
               heading="Make A Reservations Table"
               subHeading="Booking Table"
@@ -77,7 +75,6 @@ const BookingTableSection = () => {
               <Button text="Book A Reservation" icon={<FaArrowRight />} />
             </div>
             
-          </Container>
         </div>
       </div>
     </div>
