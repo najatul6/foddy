@@ -15,15 +15,12 @@ import ChefCard from "./ChefCard";
 const OurBestChefSection = () => {
   return (
         <Container>
-            {/* w-1/3 এর পরিবর্তে w-full md:w-2/3 lg:w-1/3 ব্যবহার করা হয়েছে যাতে মোবাইলে লেখাগুলো সুন্দরভাবে দেখা যায় */}
             <div className="w-full md:w-2/3 lg:w-1/3 mx-auto text-center px-4 md:px-0">
                 <SectionHeader heading={"Meet Our Exclusive Kitchen Teams"} subHeading={"OUR best chef’s"}/>
             </div>
             
-            {/* মোবাইলের জন্য লাইনটির উইডথ এবং মার্জিন একটু রেস্পন্সিভ করা হয়েছে */}
             <hr className="w-3/4 md:w-1/2 mx-auto my-6 md:my-10" />
             
-            {/* Swiper Pagination যেন কার্ডের সাথে লেগে না যায় তাই pb-10 দেওয়া হয়েছে */}
             <div className="pb-10">
                 <Swiper
                     slidesPerView={1}

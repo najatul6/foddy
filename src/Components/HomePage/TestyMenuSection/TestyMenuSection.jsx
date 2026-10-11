@@ -19,7 +19,7 @@ const TestyMenuSection = () => {
         />
       </div>
       
-      {/* Menu Content */}
+      {/* Menu Content*/}
       <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-8 md:gap-10 mb-10">
         
         {/* left side image */}
